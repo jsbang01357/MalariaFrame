@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="질병관리청 말라리아 진료가이드 제3판 기반 의료진용 진단·치료 의사결정 보조 도구"
+    />
+    <title>MalariaFrame · 말라리아 진료 보조</title>
+    <link rel="stylesheet" href="/malaria-styles.css?v=260711-1" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="MalariaFrame 처음으로">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span>
+          <strong>MalariaFrame</strong>
+          <small>Primary care decision support</small>
+        </span>
+      </a>
+      <div class="header-meta">
+        <span class="privacy-badge"><i></i>환자정보 비저장</span>
+        <a href="https://www.kdca.go.kr/bbs/kdca/55/306119/download.do" target="_blank" rel="noreferrer">
+          질병관리청 제3판 원문
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">의료진 전용 · 오프라인 우선</p>
+          <h1 id="hero-title">말라리아를 놓치지 않고,<br />치료까지 한 흐름으로.</h1>
+          <p class="hero-description">
+            발열 환자의 역학적 연관성, 검사 결과와 중증도를 순서대로 확인하고
+            체중·임신·G6PD 상태에 맞는 가이드 기반 처방 초안을 계산합니다.
+          </p>
+          <div class="hero-points" aria-label="핵심 기능">
+            <span><b>01</b> 의심·확인진단</span>
+            <span><b>02</b> 중증 전원 판단</span>
+            <span><b>03</b> 체중별 용량</span>
+          </div>
+        </div>
+        <aside class="hero-alert" aria-label="응급 안내">
+          <span class="alert-kicker">RED FLAG</span>
+          <strong>중증 기준이 하나라도 있으면<br />검사 확정을 기다리지 않습니다.</strong>
+          <p>즉시 상급병원 전원·입원, 감염내과 협진 및 아르테수네이트 주사제 확보</p>
+        </aside>
+      </section>
+
+      <section class="workspace" aria-label="말라리아 의사결정 도구">
+        <form id="clinical-form" class="clinical-form" novalidate>
+          <div class="form-heading">
+            <div>
+              <p class="section-label">PATIENT ASSESSMENT</p>
+              <h2>환자 정보 입력</h2>
+            </div>
+            <button class="text-button" id="reset-button" type="reset">모두 지우기</button>
+          </div>
+
+          <fieldset class="form-section">
+            <legend><span>1</span> 기본 정보</legend>
+            <p class="section-help">이름·주민번호·등록번호는 입력하지 않습니다.</p>
+            <div class="field-grid three-columns">
+              <label class="field">
+                <span>나이 <em>필수</em></span>
+                <div class="input-unit"><input name="age" type="number" min="0" max="120" step="0.1" required /><i>세</i></div>
+              </label>
+              <label class="field">
+                <span>체중 <em>필수</em></span>
+                <div class="input-unit"><input name="weight" type="number" min="0.5" max="300" step="0.1" required /><i>kg</i></div>
+              </label>
+              <label class="field">
+                <span>임신·수유 상태</span>
+                <select name="pregnancy">
+                  <option value="none">해당 없음</option>
+                  <option value="trimester1">임신 1삼분기</option>
+                  <option value="trimester23">임신 2–3삼분기</option>
+                  <option value="breastfeeding">수유 중</option>
+                </select>
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-section">
+            <legend><span>2</span> 역학적 연관성과 증상</legend>
+            <div class="choice-grid two-columns">
+              <label class="choice-card">
+                <input name="domesticExposure" type="checkbox" />
+                <span><b>국내 위험지역 노출</b><small>거주·여행·군복무 포함</small></span>
+              </label>
+              <label class="choice-card">
+                <input name="overseasExposure" type="checkbox" />
+                <span><b>해외 유행지역 노출</b><small>국가·지역과 귀국일 별도 확인</small></span>
+              </label>
+            </div>
+            <div class="field-grid three-columns compact-top">
+              <label class="field">
+                <span>현재/최고 체온</span>
+                <div class="input-unit"><input name="temperature" type="number" min="34" max="43" step="0.1" /><i>°C</i></div>
+              </label>
+              <label class="choice-card inline-choice">
+                <input name="fever" type="checkbox" />
+                <span><b>발열 또는 주기적 열</b><small>오한·발한 동반 포함</small></span>
+              </label>
+              <label class="field">
+                <span>경구 투약</span>
+                <select name="oralStatus">
+                  <option value="possible">가능</option>
+                  <option value="impossible">불가능/지속 구토</option>
+                </select>
+              </label>
+            </div>
+            <p class="source-hint">
+              국내 위험지역은 매년 달라질 수 있습니다.
+              <a href="https://www.kdca.go.kr/kdca/3394/subview.do" target="_blank" rel="noreferrer">질병관리청 최신 현황 확인</a>
+            </p>
+          </fieldset>
+
+          <fieldset class="form-section">
+            <legend><span>3</span> 진단검사</legend>
+            <div class="field-grid three-columns">
+              <label class="field">
+                <span>신속진단검사(RDT)</span>
+                <select name="rdt">
+                  <option value="not_done">미시행</option>
+                  <option value="positive">양성</option>
+                  <option value="negative">음성</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>말초혈액도말</span>
+                <select name="smear">
+                  <option value="not_done">미시행/대기</option>
+                  <option value="positive">양성</option>
+                  <option value="negative">음성</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>PCR</span>
+                <select name="pcr">
+                  <option value="not_done">미시행/대기</option>
+                  <option value="positive">양성</option>
+                  <option value="negative">음성</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>원충종</span>
+                <select name="species">
+                  <option value="unknown">미확인</option>
+                  <option value="vivax">삼일열 (P. vivax)</option>
+                  <option value="falciparum">열대열 (P. falciparum)</option>
+                  <option value="ovale">난형열 (P. ovale)</option>
+                  <option value="malariae">사일열 (P. malariae)</option>
+                  <option value="knowlesi">원숭이열 (P. knowlesi)</option>
+                  <option value="mixed">혼합감염</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>무성 기생충혈증</span>
+                <div class="input-unit"><input name="parasitemia" type="number" min="0" max="100" step="0.1" /><i>%</i></div>
+              </label>
+              <label class="field">
+                <span>기생충 밀도</span>
+                <div class="input-unit"><input name="parasiteDensity" type="number" min="0" step="1" /><i>/μL</i></div>
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-section severity-section">
+            <legend><span>4</span> 중증도 평가</legend>
+            <p class="section-help">알고 있는 수치만 입력하고, 해당 임상 징후를 모두 선택합니다.</p>
+            <div class="field-grid four-columns mini-fields">
+              <label class="field"><span>GCS</span><input name="gcs" type="number" min="3" max="15" /></label>
+              <label class="field"><span>24h 경련</span><div class="input-unit"><input name="seizureCount" type="number" min="0" /><i>회</i></div></label>
+              <label class="field"><span>혈당</span><div class="input-unit"><input name="glucose" type="number" min="0" /><i>mg/dL</i></div></label>
+              <label class="field"><span>Creatinine</span><div class="input-unit"><input name="creatinine" type="number" min="0" step="0.1" /><i>mg/dL</i></div></label>
+              <label class="field"><span>Bilirubin</span><div class="input-unit"><input name="bilirubin" type="number" min="0" step="0.1" /><i>mg/dL</i></div></label>
+              <label class="field"><span>SpO₂</span><div class="input-unit"><input name="spo2" type="number" min="0" max="100" /><i>%</i></div></label>
+              <label class="field"><span>호흡수</span><div class="input-unit"><input name="respiratoryRate" type="number" min="0" /><i>/분</i></div></label>
+              <label class="field"><span>수축기혈압</span><div class="input-unit"><input name="sbp" type="number" min="0" /><i>mmHg</i></div></label>
+            </div>
+            <div class="check-list">
+              <label><input name="severeSigns" type="checkbox" value="의식소실·혼수" />의식소실·혼수</label>
+              <label><input name="severeSigns" type="checkbox" value="도움 없이 앉기·서기·보행 불가" />도움 없이 앉기·서기·보행 불가</label>
+              <label><input name="severeSigns" type="checkbox" value="대사성 산증 기준 충족" />대사성 산증</label>
+              <label><input name="severeSigns" type="checkbox" value="심한 빈혈 기준 충족" />심한 빈혈</label>
+              <label><input name="severeSigns" type="checkbox" value="폐부종 확인" />폐부종</label>
+              <label><input name="severeSigns" type="checkbox" value="중대한 출혈" />중대한 출혈</label>
+              <label><input name="severeSigns" type="checkbox" value="쇼크·장기관류 장애" />쇼크·장기관류 장애</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-section">
+            <legend><span>5</span> 약제 안전성</legend>
+            <div class="field-grid three-columns">
+              <label class="field">
+                <span>G6PD 검사</span>
+                <select name="g6pd">
+                  <option value="unknown">미시행/결과 대기</option>
+                  <option value="normal">정상</option>
+                  <option value="deficient">결핍</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>최근 예방화학요법</span>
+                <select name="prophylaxis">
+                  <option value="none">없음</option>
+                  <option value="atovaquone-proguanil">아토바쿠온-프로구아닐</option>
+                  <option value="mefloquine">메플로퀸</option>
+                  <option value="doxycycline">독시사이클린</option>
+                  <option value="chloroquine">클로로퀸</option>
+                  <option value="primaquine">프리마퀸</option>
+                </select>
+              </label>
+              <div class="stacked-checks">
+                <label><input name="activeLiverDisease" type="checkbox" /> 활동성 간질환</label>
+                <label><input name="qtcRisk" type="checkbox" /> QT 연장 위험/병용약</label>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="attestation">
+            <label>
+              <input id="clinician-confirmed" name="clinicianConfirmed" type="checkbox" />
+              <span><b>의료진 확인</b> 이 결과는 처방 자동 확정이 아닌 진료 보조이며, 원충종·제형·금기·상호작용과 최신 지침을 최종 확인합니다.</span>
+            </label>
+          </div>
+
+          <button id="assess-button" class="primary-button" type="submit" disabled>
+            진단·치료 결과 계산
+            <span aria-hidden="true">→</span>
+          </button>
+        </form>
+
+        <aside class="result-panel" id="result-panel" aria-live="polite">
+          <div class="empty-result" id="empty-result">
+            <span class="result-orbit" aria-hidden="true"><i></i></span>
+            <p class="section-label">CLINICAL OUTPUT</p>
+            <h2>입력을 마치면<br />진료 흐름이 정리됩니다.</h2>
+            <p>진단 수준, 다음 검사, 전원 여부와 체중 기반 처방 초안을 한 화면에서 확인하세요.</p>
+          </div>
+
+          <div class="result-content" id="result-content" hidden>
+            <div class="result-topline">
+              <span id="diagnosis-level" class="diagnosis-level">판정</span>
+              <button id="recalculate-button" class="text-button" type="button">입력 수정</button>
+            </div>
+            <h2 id="diagnosis-title"></h2>
+            <p id="diagnosis-detail" class="diagnosis-detail"></p>
+
+            <section class="result-block disposition-block">
+              <h3>지금 할 일</h3>
+              <p id="disposition-text"></p>
+            </section>
+
+            <section class="result-block" id="severe-block" hidden>
+              <h3>중증 기준</h3>
+              <ul id="severe-list" class="plain-list danger-list"></ul>
+            </section>
+
+            <section class="result-block">
+              <div class="block-heading">
+                <h3>처방 초안</h3>
+                <span>최종 처방 전 재확인</span>
+              </div>
+              <div id="medication-list" class="medication-list"></div>
+            </section>
+
+            <section class="result-block warning-block" id="warning-block" hidden>
+              <h3>확인 필요</h3>
+              <ul id="warning-list" class="plain-list"></ul>
+            </section>
+
+            <footer class="result-footer">
+              <p id="privacy-text"></p>
+              <p>근거: 질병관리청 「말라리아 진료가이드(제3판)」, 2026-03-30</p>
+            </footer>
+          </div>
+        </aside>
+      </section>
+
+      <section class="evidence-strip" aria-label="진단 핵심 원칙">
+        <article><span>RDT 양성</span><strong>즉시 치료 검토 + 확진검사</strong><p>RDT는 추정진단이며 혈액도말 또는 PCR을 뒤따르게 합니다.</p></article>
+        <article><span>RDT 음성</span><strong>강한 의심이면 6–12시간 후 반복</strong><p>낮은 기생충혈증에서는 음성만으로 배제할 수 없습니다.</p></article>
+        <article><span>해외유입</span><strong>원충종 미확인은 열대열로 간주</strong><p>PCR로 원충종과 혼합감염을 확인하고 입원 기준을 낮춥니다.</p></article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><strong>MalariaFrame</strong><p>오픈소스 의료진용 임상 의사결정 보조 도구</p></div>
+      <p>본 도구는 의료기기 허가 또는 질병관리청 공식 전산서비스가 아니며, 전문적 임상 판단을 대체하지 않습니다.</p>
+    </footer>
+
+    <script src="/malaria-app.js?v=260711-1" type="module"></script>
+  </body>
+</html>

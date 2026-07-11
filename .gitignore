@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.uv_cache/
+.uv-cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit / secrets
+.streamlit/
+.env
+.env.local
+.local_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Agent
+tasks/
+AGENTS.md
+
+# parser-core local artifacts
+parser-core/node_modules/
+parser-core/dist/
+parser-core/.npm-cache/
+.wrangler/
+*.txt
+dist/
+node_modules/

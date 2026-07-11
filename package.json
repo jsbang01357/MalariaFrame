@@ -1,0 +1,19 @@
+{
+  "name": "malariaframe",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=10"
+  },
+  "scripts": {
+    "test": "node tests/js/run_malaria_engine_test.mjs && node tests/js/run_worker_proxy_test.mjs",
+    "build": "bash scripts/build_static_site.sh",
+    "worker:dry-run": "wrangler deploy --dry-run --config deploy/malariaframe-worker/wrangler.jsonc",
+    "worker:deploy": "wrangler deploy --config deploy/malariaframe-worker/wrangler.jsonc"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
