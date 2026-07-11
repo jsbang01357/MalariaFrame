@@ -153,6 +153,31 @@ export function artesunateDose(weightInput) {
   };
 }
 
+export function calculateMedicationPlan(rawInput = {}) {
+  const scenario = rawInput.scenario || "domestic_vivax";
+  const species = scenario === "domestic_vivax"
+    ? "vivax"
+    : (rawInput.species || "unknown");
+
+  return assessMalaria({
+    age: rawInput.age,
+    weight: rawInput.weight,
+    pregnancy: rawInput.pregnancy || "none",
+    g6pd: rawInput.g6pd || "unknown",
+    prophylaxis: rawInput.prophylaxis || "none",
+    activeLiverDisease: Boolean(rawInput.activeLiverDisease),
+    qtcRisk: Boolean(rawInput.qtcRisk),
+    domesticExposure: scenario === "domestic_vivax",
+    overseasExposure: scenario !== "domestic_vivax",
+    rdt: "positive",
+    smear: "positive",
+    pcr: "not_done",
+    species,
+    severeSigns: scenario === "severe" ? ["중증 말라리아 임상기준 충족"] : [],
+    cannotTakeOral: scenario === "severe" && Boolean(rawInput.cannotTakeOral),
+  });
+}
+
 function positiveTest(input) {
   return [input.rdt, input.smear, input.pcr].some((value) => value === POSITIVE);
 }

@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import {
   assessMalaria,
   artesunateDose,
+  calculateMedicationPlan,
   hydroxychloroquineDose,
   malaroneDose,
   primaquineDose,
@@ -142,5 +143,35 @@ const autoSevere = assessMalaria({
 });
 assert.equal(autoSevere.medications[0].id, "iv-artesunate");
 assert.ok(autoSevere.severe.some((reason) => reason.includes("10% 초과")));
+
+const calculatorDomestic = calculateMedicationPlan({
+  scenario: "domestic_vivax",
+  age: 45,
+  weight: 70,
+  pregnancy: "none",
+  g6pd: "normal",
+});
+assert.equal(calculatorDomestic.medications[0].id, "hydroxychloroquine");
+assert.equal(calculatorDomestic.medications[1].id, "primaquine");
+
+const calculatorImported = calculateMedicationPlan({
+  scenario: "imported_uncomplicated",
+  age: 32,
+  weight: 50,
+  species: "falciparum",
+  pregnancy: "none",
+  g6pd: "normal",
+});
+assert.equal(calculatorImported.medications[0].id, "pyramax");
+assert.match(calculatorImported.medications[0].regimen, /1일 3정/);
+
+const calculatorSevere = calculateMedicationPlan({
+  scenario: "severe",
+  age: 6,
+  weight: 18,
+  species: "falciparum",
+});
+assert.equal(calculatorSevere.medications[0].id, "iv-artesunate");
+assert.match(calculatorSevere.medications[0].regimen, /54 mg\/dose/);
 
 console.log("MalariaFrame clinical decision engine: all scenarios passed");
