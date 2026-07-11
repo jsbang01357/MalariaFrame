@@ -1,0 +1,441 @@
+{"kind":"deck","id":"pr/hrzdl2","name":"Deck"}
+{"kind":"layout","layoutId":"2922cc04-c33a-43f6-82c1-7d085e5c0ec7","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"69ecffc0-558a-42f1-99c1-3376c196af63","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/srh35j","slide":1,"title":"공공 협력 검토용","textShapes":7}
+{"kind":"shape","id":"sh/vyd47adg","slide":1,"name":"badge-bg","bbox":[42,38,156,30]}
+{"kind":"textbox","id":"sh/wzm50fe1","slide":1,"name":"badge","text":"공공 협력 검토용","textPreview":"공공 협력 검토용","textChars":9,"textLines":1,"bbox":[52,44,136,18]}
+{"kind":"textbox","id":"sh/x0vm9kvm","slide":1,"name":"text","text":"MalariaFrame","textPreview":"MalariaFrame","textChars":12,"textLines":1,"bbox":[1060,42,178,28]}
+{"kind":"textbox","id":"sh/i14n2pw7","slide":1,"name":"cover-title","text":"1차 의료기관용\n말라리아 웹 CDSS","textPreview":"1차 의료기관용 | 말라리아 웹 CDSS","textChars":20,"textLines":2,"bbox":[42,168,920,210]}
+{"kind":"shape","id":"sh/jmx4buds","slide":1,"name":"accent-bar","bbox":[42,408,106,7]}
+{"kind":"textbox","id":"sh/kn654fex","slide":1,"name":"cover-subtitle","text":"질병관리청 지침의 진료 흐름·약물 용량 규칙을 구조화한\n오픈소스 임상 의사결정 지원 프로토타입","textPreview":"질병관리청 지침의 진료 흐름·약물 용량 규칙을 구조화한 | 오픈소스 임상 의사결정 지원 프로토타입","textChars":52,"textLines":2,"bbox":[42,448,830,92]}
+{"kind":"textbox","id":"sh/5ofmdkvi","slide":1,"name":"text","text":"감염병정책국 인수공통감염병관리과 브리핑\n제안·개발  jsbang01357 (개인 오픈소스 프로젝트)  |  2026.07.11","textPreview":"감염병정책국 인수공통감염병관리과 브리핑 | 제안·개발  jsbang01357 (개인 오픈소스 프로젝트)  |  2026.07.11","textChars":70,"textLines":2,"bbox":[42,590,760,56]}
+{"kind":"shape","id":"sh/6pon6pw3","slide":1,"name":"cover-mark","bbox":[1030,520,208,126]}
+{"kind":"textbox","id":"sh/7qx4fudo","slide":1,"name":"text","text":"MF","textPreview":"MF","textChars":2,"textLines":1,"bbox":[1063,540,140,62]}
+{"kind":"textbox","id":"sh/b69svi9g","slide":1,"name":"text","text":"CLINICAL DECISION SUPPORT","textPreview":"CLINICAL DECISION SUPPORT","textChars":25,"textLines":1,"bbox":[1046,607,176,18]}
+{"kind":"notes","id":"nt/srh35j","slide":1,"text":""}
+{"kind":"slide","id":"sl/ymva8y","slide":2,"title":"지침을 ‘읽는 자료’에서 ‘진료 시점의 행동’으로 변환했습니다","textShapes":17}
+{"kind":"textbox","id":"sh/2x0ra5cr","slide":2,"name":"slide-title","text":"지침을 ‘읽는 자료’에서 ‘진료 시점의 행동’으로 변환했습니다","textPreview":"지침을 ‘읽는 자료’에서 ‘진료 시점의 행동’으로 변환했습니다","textChars":34,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/p0ral0bi","slide":2,"name":"slide-subtitle","text":"목표는 의료진의 판단을 대체하는 것이 아니라, 누락되기 쉬운 분기와 계산을 한 화면에서 확인하게 하는 것입니다.","textPreview":"목표는 의료진의 판단을 대체하는 것이 아니라, 누락되기 쉬운 분기와 계산을 한 화면에서 확인하게 하는 것입니다.","textChars":62,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/ozi9cvux","slide":2,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"textbox","id":"sh/fa98fqtg","slide":2,"name":"text","text":"현장 과제","textPreview":"현장 과제","textChars":5,"textLines":1,"bbox":[42,174,545,34]}
+{"kind":"textbox","id":"sh/e9gr6lcv","slide":2,"name":"text","text":"시스템의 대응","textPreview":"시스템의 대응","textChars":7,"textLines":1,"bbox":[664,174,574,34]}
+{"kind":"shape","id":"sh/1wrqh0bm","slide":2,"name":"challenge-0-0","bbox":[42,230,574,100]}
+{"kind":"textbox","id":"sh/gbi98vu1","slide":2,"name":"text","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[60,248,48,30]}
+{"kind":"textbox","id":"sh/r6p8bqt4","slide":2,"name":"text","text":"노출력·검사·중증 기준이 서로 다른 문단과 표에 분산","textPreview":"노출력·검사·중증 기준이 서로 다른 문단과 표에 분산","textChars":29,"textLines":1,"bbox":[114,247,478,65]}
+{"kind":"shape","id":"sh/65gr2lcz","slide":2,"name":"challenge-0-1","bbox":[42,356,574,100]}
+{"kind":"textbox","id":"sh/s3ah0r6l","slide":2,"name":"text","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[60,374,48,30]}
+{"kind":"textbox","id":"sh/t4jitcnq","slide":2,"name":"text","text":"검사 음성 후 반복검사, 원충종 미확인 등 예외 흐름 누락 가능","textPreview":"검사 음성 후 반복검사, 원충종 미확인 등 예외 흐름 누락 가능","textChars":35,"textLines":1,"bbox":[114,373,478,65]}
+{"kind":"shape","id":"sh/61szyhof","slide":2,"name":"challenge-0-2","bbox":[42,482,574,100]}
+{"kind":"textbox","id":"sh/7210rm50","slide":2,"name":"text","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[60,500,48,30]}
+{"kind":"textbox","id":"sh/kzahw769","slide":2,"name":"text","text":"체중·임신·G6PD·제형을 함께 고려하는 약물 계산 부담","textPreview":"체중·임신·G6PD·제형을 함께 고려하는 약물 계산 부담","textChars":31,"textLines":1,"bbox":[114,499,478,65]}
+{"kind":"shape","id":"sh/50jipcnu","slide":2,"name":"challenge-1-0","bbox":[664,230,574,100]}
+{"kind":"textbox","id":"sh/ix8zuxo3","slide":2,"name":"text","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[682,248,48,30]}
+{"kind":"textbox","id":"sh/jy1gn25o","slide":2,"name":"text","text":"환자 정보 → 진단 수준 → 중증도 → 다음 조치를 순서화","textPreview":"환자 정보 → 진단 수준 → 중증도 → 다음 조치를 순서화","textChars":32,"textLines":1,"bbox":[736,247,478,65]}
+{"kind":"shape","id":"sh/ovuh8b6d","slide":2,"name":"challenge-1-1","bbox":[664,356,574,100]}
+{"kind":"textbox","id":"sh/pw3i1wny","slide":2,"name":"text","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[682,374,48,30]}
+{"kind":"textbox","id":"sh/xcjilwf2","slide":2,"name":"text","text":"추정·확인·반복검사·전원 경로를 명시적으로 분리","textPreview":"추정·확인·반복검사·전원 경로를 명시적으로 분리","textChars":26,"textLines":1,"bbox":[736,373,478,65]}
+{"kind":"shape","id":"sh/crqhcryx","slide":2,"name":"challenge-1-2","bbox":[664,482,574,100]}
+{"kind":"textbox","id":"sh/bqh0j6xc","slide":2,"name":"text","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[682,500,48,30]}
+{"kind":"textbox","id":"sh/ap8za1gr","slide":2,"name":"text","text":"용량 후보와 함께 금기·보류 사유·최종 확인 항목을 출력","textPreview":"용량 후보와 함께 금기·보류 사유·최종 확인 항목을 출력","textChars":31,"textLines":1,"bbox":[736,499,478,65]}
+{"kind":"textbox","id":"sh/pozyhwf6","slide":2,"name":"footer","text":"검토용 · MalariaFrame  |  02","textPreview":"검토용 · MalariaFrame  |  02","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"notes","id":"nt/ymva8y","slide":2,"text":""}
+{"kind":"slide","id":"sl/7d2j9a","slide":3,"title":"세 화면이 한 번의 진료 흐름을 분담합니다","textShapes":14}
+{"kind":"textbox","id":"sh/5cbe94f2","slide":3,"name":"slide-title","text":"세 화면이 한 번의 진료 흐름을 분담합니다","textPreview":"세 화면이 한 번의 진료 흐름을 분담합니다","textChars":23,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/i9kve9gb","slide":3,"name":"slide-subtitle","text":"진료 의사결정, 독립 약물 계산, 공식 배포자료 확인을 고정 사이드바에서 전환합니다.","textPreview":"진료 의사결정, 독립 약물 계산, 공식 배포자료 확인을 고정 사이드바에서 전환합니다.","textChars":47,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/3atc7exw","slide":3,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"shape","id":"sh/sfmdkjyd","slide":3,"name":"module-Dx","bbox":[42,184,528,104]}
+{"kind":"shape","id":"sh/d0vedofy","slide":3,"name":"module-code-Dx","bbox":[60,203,54,54]}
+{"kind":"textbox","id":"sh/qdkvi9g7","slide":3,"name":"text","text":"Dx","textPreview":"Dx","textChars":2,"textLines":1,"bbox":[66,220,42,22]}
+{"kind":"textbox","id":"sh/retwbexs","slide":3,"name":"text","text":"진료 의사결정","textPreview":"진료 의사결정","textChars":7,"textLines":1,"bbox":[134,199,410,28]}
+{"kind":"textbox","id":"sh/03mdo3ep","slide":3,"name":"text","text":"역학·검사·중증도를 입력하고 다음 조치와 처방 초안을 확인","textPreview":"역학·검사·중증도를 입력하고 다음 조치와 처방 초안을 확인","textChars":32,"textLines":1,"bbox":[134,231,410,44]}
+{"kind":"shape","id":"sh/14vehofu","slide":3,"name":"module-Rx","bbox":[42,312,528,104]}
+{"kind":"shape","id":"sh/54rq9wfq","slide":3,"name":"module-code-Rx","bbox":[60,331,54,54]}
+{"kind":"textbox","id":"sh/43ip0re5","slide":3,"name":"text","text":"Rx","textPreview":"Rx","textChars":2,"textLines":1,"bbox":[66,348,42,22]}
+{"kind":"textbox","id":"sh/j2po7mxk","slide":3,"name":"text","text":"약물 계산기","textPreview":"약물 계산기","textChars":6,"textLines":1,"bbox":[134,327,410,28]}
+{"kind":"textbox","id":"sh/i1g7yhwz","slide":3,"name":"text","text":"치료 상황과 체중을 기준으로 용량 후보 및 보류 사유를 생성","textPreview":"치료 상황과 체중을 기준으로 용량 후보 및 보류 사유를 생성","textChars":33,"textLines":1,"bbox":[134,359,410,44]}
+{"kind":"shape","id":"sh/t8rqdwfm","slide":3,"name":"module-DOC","bbox":[42,440,528,104]}
+{"kind":"shape","id":"sh/s7ip4re1","slide":3,"name":"module-code-DOC","bbox":[60,459,54,54]}
+{"kind":"textbox","id":"sh/r698b6xg","slide":3,"name":"text","text":"DOC","textPreview":"DOC","textChars":3,"textLines":1,"bbox":[66,476,42,22]}
+{"kind":"textbox","id":"sh/650721wv","slide":3,"name":"text","text":"의사용 배포자료","textPreview":"의사용 배포자료","textChars":8,"textLines":1,"bbox":[134,455,410,28]}
+{"kind":"textbox","id":"sh/9c761cfi","slide":3,"name":"text","text":"알고리즘·용량표·중증 기준·질병관리청 원문을 별도 확인","textPreview":"알고리즘·용량표·중증 기준·질병관리청 원문을 별도 확인","textChars":30,"textLines":1,"bbox":[134,487,410,44]}
+{"kind":"shape","id":"sh/8byps7yx","slide":3,"name":"screenshot-frame","bbox":[598,174,640,456]}
+{"kind":"textbox","id":"sh/lgrqhcne","slide":3,"name":"text","text":"현재 공개 프로토타입 화면 · 실제 환자정보 미입력","textPreview":"현재 공개 프로토타입 화면 · 실제 환자정보 미입력","textChars":28,"textLines":1,"bbox":[790,639,448,20]}
+{"kind":"textbox","id":"sh/yt076xon","slide":3,"name":"source","text":"Live prototype verified: malaria.jisong.dev (2026.07.11)","textPreview":"Live prototype verified: malaria.jisong.dev (2026.07.11)","textChars":56,"textLines":1,"bbox":[42,672,1010,22]}
+{"kind":"textbox","id":"sh/ze98f258","slide":3,"name":"footer","text":"검토용 · MalariaFrame  |  03","textPreview":"검토용 · MalariaFrame  |  03","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"image","id":"im/n2x4bmt0","slide":3,"name":"","geometry":"roundRect","alt":"MalariaFrame 진료 의사결정 화면","bbox":[608,184,620,436]}
+{"kind":"notes","id":"nt/7d2j9a","slide":3,"text":""}
+{"kind":"slide","id":"sl/0u4slb","slide":4,"title":"입력부터 처방 초안까지, 다섯 번의 확인으로 흐름을 고정합니다","textShapes":20}
+{"kind":"textbox","id":"sh/edwb6907","slide":4,"name":"slide-title","text":"입력부터 처방 초안까지, 다섯 번의 확인으로 흐름을 고정합니다","textPreview":"입력부터 처방 초안까지, 다섯 번의 확인으로 흐름을 고정합니다","textChars":34,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/107a1ozy","slide":4,"name":"slide-subtitle","text":"각 단계가 다음 단계의 조건을 만들고, 위험 신호가 있으면 외래 경로를 중단합니다.","textPreview":"각 단계가 다음 단계의 조건을 만들고, 위험 신호가 있으면 외래 경로를 중단합니다.","textChars":46,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/gzyt8jid","slide":4,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"shape","id":"sh/ra5svehw","slide":4,"name":"flow-node-0","bbox":[54,285,190,176]}
+{"kind":"shape","id":"sh/69wb290b","slide":4,"name":"flow-node-1","bbox":[298,285,190,176]}
+{"kind":"shape","id":"sh/tcnaxozm","slide":4,"name":"flow-node-2","bbox":[542,285,190,176]}
+{"kind":"shape","id":"sh/sbet4ji1","slide":4,"name":"flow-node-3","bbox":[786,285,190,176]}
+{"kind":"shape","id":"sh/j6lsruhk","slide":4,"name":"flow-node-4","bbox":[1030,285,190,176]}
+{"kind":"shape","id":"sh/i5cryp0z","slide":4,"bbox":[244,373,54,0]}
+{"kind":"shape","id":"sh/ofy9wfq1","slide":4,"bbox":[488,373,54,0]}
+{"kind":"shape","id":"sh/pg7apk7m","slide":4,"bbox":[732,373,54,0]}
+{"kind":"shape","id":"sh/2dgrup8b","slide":4,"bbox":[976,373,54,0]}
+{"kind":"textbox","id":"sh/3epsnapg","slide":4,"name":"text","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,304,48,26]}
+{"kind":"textbox","id":"sh/gbe9sfq5","slide":4,"name":"text","text":"환자 평가","textPreview":"환자 평가","textChars":5,"textLines":1,"bbox":[72,342,154,33]}
+{"kind":"textbox","id":"sh/1cnalk7q","slide":4,"name":"text","text":"나이·체중\n노출력·발열","textPreview":"나이·체중 | 노출력·발열","textChars":12,"textLines":2,"bbox":[72,389,154,54]}
+{"kind":"textbox","id":"sh/e9wrq58z","slide":4,"name":"text","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[316,304,48,26]}
+{"kind":"textbox","id":"sh/fa5sjapk","slide":4,"name":"text","text":"진단 수준","textPreview":"진단 수준","textChars":5,"textLines":1,"bbox":[316,342,154,33]}
+{"kind":"textbox","id":"sh/07it4zq9","slide":4,"name":"text","text":"의심·추정\n확인·반복","textPreview":"의심·추정 | 확인·반복","textChars":11,"textLines":2,"bbox":[316,389,154,54]}
+{"kind":"textbox","id":"sh/l8rax47u","slide":4,"name":"text","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[560,304,48,26]}
+{"kind":"textbox","id":"sh/9c3i10vm","slide":4,"name":"text","text":"중증도","textPreview":"중증도","textChars":3,"textLines":1,"bbox":[560,342,154,33]}
+{"kind":"textbox","id":"sh/8ru1sfu1","slide":4,"name":"text","text":"임상·검사\n즉시 전원","textPreview":"임상·검사 | 즉시 전원","textChars":11,"textLines":2,"bbox":[560,389,154,54]}
+{"kind":"textbox","id":"sh/nql0zadw","slide":4,"name":"text","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[804,304,48,26]}
+{"kind":"textbox","id":"sh/mpcjq5wb","slide":4,"name":"text","text":"약물 후보","textPreview":"약물 후보","textChars":5,"textLines":1,"bbox":[804,342,154,33]}
+{"kind":"textbox","id":"sh/lo3ix0vq","slide":4,"name":"text","text":"원충종·체중\n임신·G6PD","textPreview":"원충종·체중 | 임신·G6PD","textChars":14,"textLines":2,"bbox":[804,389,154,54]}
+{"kind":"textbox","id":"sh/0nu1ove5","slide":4,"name":"text","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1048,304,48,26]}
+{"kind":"textbox","id":"sh/zml0vqdk","slide":4,"name":"text","text":"의료진 확인","textPreview":"의료진 확인","textChars":6,"textLines":1,"bbox":[1048,342,154,33]}
+{"kind":"textbox","id":"sh/ylsjmlwz","slide":4,"name":"text","text":"제형·금기\n신고·추적","textPreview":"제형·금기 | 신고·추적","textChars":11,"textLines":2,"bbox":[1048,389,154,54]}
+{"kind":"shape","id":"sh/dkjitgve","slide":4,"name":"workflow-guard","bbox":[54,500,1166,90]}
+{"kind":"textbox","id":"sh/cja1kve9","slide":4,"name":"text","text":"중증 기준 충족 또는 경구 투약 불가","textPreview":"중증 기준 충족 또는 경구 투약 불가","textChars":20,"textLines":1,"bbox":[76,519,330,24]}
+{"kind":"textbox","id":"sh/2p8fuhcr","slide":4,"name":"text","text":"→ 검사 확정을 기다리지 않고 전원·입원 및 정맥용 아르테수네이트 확보 경로를 우선 표시","textPreview":"→ 검사 확정을 기다리지 않고 전원·입원 및 정맥용 아르테수네이트 확보 경로를 우선 표시","textChars":49,"textLines":1,"bbox":[408,518,780,40]}
+{"kind":"textbox","id":"sh/3qhg3mtc","slide":4,"name":"footer","text":"검토용 · MalariaFrame  |  04","textPreview":"검토용 · MalariaFrame  |  04","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"notes","id":"nt/0u4slb","slide":4,"text":""}
+{"kind":"slide","id":"sl/5kmymf","slide":5,"title":"규칙의 기준일과 출처를 화면·문서·코드에서 함께 고정합니다","textShapes":22}
+{"kind":"textbox","id":"sh/18b6tk3a","slide":5,"name":"slide-title","text":"규칙의 기준일과 출처를 화면·문서·코드에서 함께 고정합니다","textPreview":"규칙의 기준일과 출처를 화면·문서·코드에서 함께 고정합니다","textChars":32,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/e5kni54j","slide":5,"name":"slide-subtitle","text":"지침 개정 시 영향을 받는 분기와 용량표를 추적할 수 있도록 출처와 검토 상태를 분리합니다.","textPreview":"지침 개정 시 영향을 받는 분기와 용량표를 추적할 수 있도록 출처와 검토 상태를 분리합니다.","textChars":51,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/f6toral4","slide":5,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"shape","id":"sh/ov25ofml","slide":5,"name":"cell-0-0","bbox":[42,186,230,48]}
+{"kind":"textbox","id":"sh/pwv6xk36","slide":5,"name":"text","text":"근거 계층","textPreview":"근거 계층","textChars":5,"textLines":1,"bbox":[52,194,210,32]}
+{"kind":"shape","id":"sh/29knm54v","slide":5,"name":"cell-0-1","bbox":[272,186,330,48]}
+{"kind":"textbox","id":"sh/nutoval0","slide":5,"name":"text","text":"현재 적용","textPreview":"현재 적용","textChars":5,"textLines":1,"bbox":[282,194,310,32]}
+{"kind":"shape","id":"sh/4zi5cvmh","slide":5,"name":"cell-0-2","bbox":[602,186,320,48]}
+{"kind":"textbox","id":"sh/50r6l032","slide":5,"name":"text","text":"시스템 반영","textPreview":"시스템 반영","textChars":6,"textLines":1,"bbox":[612,194,300,32]}
+{"kind":"shape","id":"sh/lov6d8fu","slide":5,"name":"cell-0-3","bbox":[922,186,318,48]}
+{"kind":"textbox","id":"sh/0nmpk3e9","slide":5,"name":"text","text":"변경 시 조치","textPreview":"변경 시 조치","textChars":7,"textLines":1,"bbox":[932,194,298,32]}
+{"kind":"shape","id":"sh/zmdobyxo","slide":5,"name":"cell-1-0","bbox":[42,234,230,112]}
+{"kind":"textbox","id":"sh/ylk7itw3","slide":5,"name":"text","text":"핵심 진료지침","textPreview":"핵심 진료지침","textChars":7,"textLines":1,"bbox":[52,242,210,96]}
+{"kind":"shape","id":"sh/9svqh8vq","slide":5,"name":"cell-1-1","bbox":[272,234,330,112]}
+{"kind":"textbox","id":"sh/8rmpo3e5","slide":5,"name":"text","text":"말라리아 진료가이드(제3판)\n2026.03.30","textPreview":"말라리아 진료가이드(제3판) | 2026.03.30","textChars":26,"textLines":2,"bbox":[282,242,310,96]}
+{"kind":"shape","id":"sh/7qd8fyxk","slide":5,"name":"cell-1-2","bbox":[602,234,320,112]}
+{"kind":"textbox","id":"sh/mp47mdwf","slide":5,"name":"text","text":"진단·중증·약물 분기\n규칙 기준일 고정","textPreview":"진단·중증·약물 분기 | 규칙 기준일 고정","textChars":21,"textLines":2,"bbox":[612,242,300,96]}
+{"kind":"shape","id":"sh/hgfqlsv2","slide":5,"name":"cell-1-3","bbox":[922,234,318,112]}
+{"kind":"textbox","id":"sh/wv6psneh","slide":5,"name":"text","text":"규칙·테스트·문서\n동시 개정","textPreview":"규칙·테스트·문서 | 동시 개정","textChars":15,"textLines":2,"bbox":[932,242,298,96]}
+{"kind":"shape","id":"sh/gby14vqp","slide":5,"name":"cell-2-0","bbox":[42,346,230,112]}
+{"kind":"textbox","id":"sh/1c7id07a","slide":5,"name":"text","text":"의료인용 배포자료","textPreview":"의료인용 배포자료","textChars":9,"textLines":1,"bbox":[52,354,210,96]}
+{"kind":"shape","id":"sh/e9wj2l8j","slide":5,"name":"cell-2-1","bbox":[272,346,330,112]}
+{"kind":"textbox","id":"sh/fa50bqp4","slide":5,"name":"text","text":"진료 안내서 및 책받침\n2026.07.09","textPreview":"진료 안내서 및 책받침 | 2026.07.09","textChars":23,"textLines":2,"bbox":[282,354,310,96]}
+{"kind":"shape","id":"sh/ozy18vq1","slide":5,"name":"cell-2-2","bbox":[602,346,320,112]}
+{"kind":"textbox","id":"sh/p07ih07m","slide":5,"name":"text","text":"배포자료 탭에서\n현장 요약 확인","textPreview":"배포자료 탭에서 | 현장 요약 확인","textChars":17,"textLines":2,"bbox":[612,354,300,96]}
+{"kind":"shape","id":"sh/2dgj6l8v","slide":5,"name":"cell-2-3","bbox":[922,346,318,112]}
+{"kind":"textbox","id":"sh/3yp0fqpg","slide":5,"name":"text","text":"표현·용량표의 최신성\n상호 대조","textPreview":"표현·용량표의 최신성 | 상호 대조","textChars":17,"textLines":2,"bbox":[932,354,298,96]}
+{"kind":"shape","id":"sh/43ehwbqh","slide":5,"name":"cell-3-0","bbox":[42,458,230,112]}
+{"kind":"textbox","id":"sh/54ni5w72","slide":5,"name":"text","text":"프로젝트 규칙 문서","textPreview":"프로젝트 규칙 문서","textChars":10,"textLines":1,"bbox":[52,466,210,96]}
+{"kind":"shape","id":"sh/nyt4be9k","slide":5,"name":"cell-3-1","bbox":[272,458,330,112]}
+{"kind":"textbox","id":"sh/mxk329sz","slide":5,"name":"text","text":"docs/clinical-rules.md\n오픈소스 저장소","textPreview":"docs/clinical-rules.md | 오픈소스 저장소","textChars":31,"textLines":2,"bbox":[282,466,310,96]}
+{"kind":"shape","id":"sh/90bmd4rq","slide":5,"name":"cell-3-2","bbox":[602,458,320,112]}
+{"kind":"textbox","id":"sh/8z2l4ja5","slide":5,"name":"text","text":"보수적 차단 조건과\n검토 필요 항목 명시","textPreview":"보수적 차단 조건과 | 검토 필요 항목 명시","textChars":22,"textLines":2,"bbox":[612,466,300,96]}
+{"kind":"shape","id":"sh/zutk7u9o","slide":5,"name":"cell-3-3","bbox":[922,458,318,112]}
+{"kind":"textbox","id":"sh/yt03yps3","slide":5,"name":"text","text":"변경 이력·검수자·\n버전 태그 기록","textPreview":"변경 이력·검수자· | 버전 태그 기록","textChars":19,"textLines":2,"bbox":[932,466,298,96]}
+{"kind":"shape","id":"sh/lwbm94ru","slide":5,"name":"evidence-caveat","bbox":[42,594,1198,54]}
+{"kind":"textbox","id":"sh/0v2l0za9","slide":5,"name":"text","text":"현재 상태","textPreview":"현재 상태","textChars":5,"textLines":1,"bbox":[58,611,92,20]}
+{"kind":"textbox","id":"sh/b69k3u9c","slide":5,"name":"text","text":"질병관리청 자료를 기반으로 독립 구현한 프로토타입이며, 질병관리청의 공식 전산서비스·임상 검증 완료 제품을 의미하지 않습니다.","textPreview":"질병관리청 자료를 기반으로 독립 구현한 프로토타입이며, 질병관리청의 공식 전산서비스·임상 검증 완료 제품을 의미하지 않습니다.","textChars":70,"textLines":1,"bbox":[158,607,1055,30]}
+{"kind":"textbox","id":"sh/q503upsr","slide":5,"name":"source","text":"Sources: KDCA 말라리아 진료가이드(제3판), 2026.03.30 · 의료인을 위한 말라리아 진료 안내서 및 책받침, 2026.07.09","textPreview":"Sources: KDCA 말라리아 진료가이드(제3판), 2026.03.30 · 의료인을 위한 말라리아 진료 안내서 및 책받침, 2026.07.09","textChars":81,"textLines":1,"bbox":[42,672,1010,22]}
+{"kind":"textbox","id":"sh/qdk7edor","slide":5,"name":"footer","text":"검토용 · MalariaFrame  |  05","textPreview":"검토용 · MalariaFrame  |  05","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"notes","id":"nt/5kmymf","slide":5,"text":""}
+{"kind":"slide","id":"sl/3ptb0v","slide":6,"title":"용량 계산은 처방 확정이 아니라 ‘후보 + 보류 사유’로 출력됩니다","textShapes":17}
+{"kind":"textbox","id":"sh/7ql8v65c","slide":6,"name":"slide-title","text":"용량 계산은 처방 확정이 아니라 ‘후보 + 보류 사유’로 출력됩니다","textPreview":"용량 계산은 처방 확정이 아니라 ‘후보 + 보류 사유’로 출력됩니다","textChars":37,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/8rupobmx","slide":6,"name":"slide-subtitle","text":"예시: 35세, 60 kg, 국내발생 삼일열, G6PD 정상 — 실제 처방이 아닌 기능 설명용 입력입니다.","textPreview":"예시: 35세, 60 kg, 국내발생 삼일열, G6PD 정상 — 실제 처방이 아닌 기능 설명용 입력입니다.","textChars":59,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/9s3qxgni","slide":6,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"shape","id":"sh/y1s7ih4v","slide":6,"name":"calculator-frame","bbox":[42,180,754,455]}
+{"kind":"textbox","id":"sh/k3upkrm1","slide":6,"name":"text","text":"출력 구조","textPreview":"출력 구조","textChars":5,"textLines":1,"bbox":[838,184,380,30]}
+{"kind":"textbox","id":"sh/l43qtwnm","slide":6,"name":"text","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[838,232,38,24]}
+{"kind":"textbox","id":"sh/axs7eh4j","slide":6,"name":"text","text":"권고 경로","textPreview":"권고 경로","textChars":5,"textLines":1,"bbox":[884,232,322,26]}
+{"kind":"textbox","id":"sh/by1onm54","slide":6,"name":"text","text":"치료 시작 + 확진·원충종 확인 + 신고 절차","textPreview":"치료 시작 + 확진·원충종 확인 + 신고 절차","textChars":25,"textLines":1,"bbox":[884,260,322,52]}
+{"kind":"textbox","id":"sh/761ojihs","slide":6,"name":"text","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[838,322,38,24]}
+{"kind":"textbox","id":"sh/65snqdg7","slide":6,"name":"text","text":"용량 후보","textPreview":"용량 후보","textChars":5,"textLines":1,"bbox":[884,322,322,26]}
+{"kind":"textbox","id":"sh/t8j6lszy","slide":6,"name":"text","text":"히드록시클로로퀸 총 1,950 mg\n프리마퀸 총 210 mg base / 14일","textPreview":"히드록시클로로퀸 총 1,950 mg | 프리마퀸 총 210 mg base / 14일","textChars":44,"textLines":2,"bbox":[884,350,322,52]}
+{"kind":"textbox","id":"sh/87a5snyd","slide":6,"name":"text","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[838,412,38,24]}
+{"kind":"textbox","id":"sh/vulon2ho","slide":6,"name":"text","text":"안전 장치","textPreview":"안전 장치","textChars":5,"textLines":1,"bbox":[884,412,322,26]}
+{"kind":"textbox","id":"sh/utcnuxg3","slide":6,"name":"text","text":"G6PD·임신·간질환·QT·예방약 이력에 따라 보류","textPreview":"G6PD·임신·간질환·QT·예방약 이력에 따라 보류","textChars":28,"textLines":1,"bbox":[884,440,322,52]}
+{"kind":"textbox","id":"sh/hw36pszu","slide":6,"name":"text","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[838,502,38,24]}
+{"kind":"textbox","id":"sh/gvu5wny9","slide":6,"name":"text","text":"최종 확인","textPreview":"최종 확인","textChars":5,"textLines":1,"bbox":[884,502,322,26]}
+{"kind":"textbox","id":"sh/byh4byhk","slide":6,"name":"text","text":"실제 제형·허가사항·상호작용·최신 지침","textPreview":"실제 제형·허가사항·상호작용·최신 지침","textChars":21,"textLines":1,"bbox":[884,530,322,52]}
+{"kind":"textbox","id":"sh/ad8nitgz","slide":6,"name":"source","text":"Example generated by the current deterministic rule engine; not a prescription.","textPreview":"Example generated by the current deterministic rule engine; not a prescription.","textChars":79,"textLines":1,"bbox":[42,672,1010,22]}
+{"kind":"textbox","id":"sh/e5gz654z","slide":6,"name":"footer","text":"검토용 · MalariaFrame  |  06","textPreview":"검토용 · MalariaFrame  |  06","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"image","id":"im/ihkbyx8n","slide":6,"name":"","geometry":"roundRect","alt":"MalariaFrame 약물 계산 결과 화면","bbox":[52,190,734,435]}
+{"kind":"notes","id":"nt/3ptb0v","slide":6,"text":""}
+{"kind":"slide","id":"sl/4anled","slide":7,"title":"구현 범위와 보수적 차단 범위를 같은 표에서 관리합니다","textShapes":28}
+{"kind":"textbox","id":"sh/qdkna9sf","slide":7,"name":"slide-title","text":"구현 범위와 보수적 차단 범위를 같은 표에서 관리합니다","textPreview":"구현 범위와 보수적 차단 범위를 같은 표에서 관리합니다","textChars":30,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/dgv654r6","slide":7,"name":"slide-subtitle","text":"자동 제시는 근거가 명확한 범위에 제한하고, 불확실성은 숨기지 않고 ‘전문 검토 필요’로 반환합니다.","textPreview":"자동 제시는 근거가 명확한 범위에 제한하고, 불확실성은 숨기지 않고 ‘전문 검토 필요’로 반환합니다.","textChars":56,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/cfm5czal","slide":7,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"shape","id":"sh/3at4zu94","slide":7,"name":"cell-0-0","bbox":[42,180,180,44]}
+{"kind":"textbox","id":"sh/29kn6psj","slide":7,"name":"text","text":"영역","textPreview":"영역","textChars":2,"textLines":1,"bbox":[52,188,160,28]}
+{"kind":"shape","id":"sh/pcbm14ra","slide":7,"name":"cell-0-1","bbox":[222,180,338,44]}
+{"kind":"textbox","id":"sh/4b258zap","slide":7,"name":"text","text":"현재 구현","textPreview":"현재 구현","textChars":5,"textLines":1,"bbox":[232,188,318,28]}
+{"kind":"shape","id":"sh/n6doby98","slide":7,"name":"cell-0-2","bbox":[560,180,340,44]}
+{"kind":"textbox","id":"sh/m54nitsn","slide":7,"name":"text","text":"보수적 차단·경고","textPreview":"보수적 차단·경고","textChars":9,"textLines":1,"bbox":[570,188,320,28]}
+{"kind":"shape","id":"sh/kridgj2x","slide":7,"name":"cell-0-3","bbox":[900,180,340,44]}
+{"kind":"textbox","id":"sh/5sbupo3i","slide":7,"name":"text","text":"우선 검증","textPreview":"우선 검증","textChars":5,"textLines":1,"bbox":[910,188,320,28]}
+{"kind":"shape","id":"sh/i50ve9kr","slide":7,"name":"cell-1-0","bbox":[42,224,180,83]}
+{"kind":"textbox","id":"sh/jq9cnelc","slide":7,"name":"text","text":"진단","textPreview":"진단","textChars":2,"textLines":1,"bbox":[52,232,160,67]}
+{"kind":"shape","id":"sh/w3idcz21","slide":7,"name":"cell-1-1","bbox":[222,224,338,83]}
+{"kind":"textbox","id":"sh/x4rul436","slide":7,"name":"text","text":"위험지역·발열, RDT, 도말, PCR\n의심·추정·확인·6–12시간 반복","textPreview":"위험지역·발열, RDT, 도말, PCR | 의심·추정·확인·6–12시간 반복","textChars":40,"textLines":2,"bbox":[232,232,318,67]}
+{"kind":"shape","id":"sh/a10vapkv","slide":7,"name":"cell-1-2","bbox":[560,224,340,83]}
+{"kind":"textbox","id":"sh/v29cjulg","slide":7,"name":"text","text":"단순 의심 단계에서는\n경구 처방 후보 미제시","textPreview":"단순 의심 단계에서는 | 경구 처방 후보 미제시","textChars":24,"textLines":2,"bbox":[570,232,320,67]}
+{"kind":"shape","id":"sh/8zyd8z2p","slide":7,"name":"cell-1-3","bbox":[900,224,340,83]}
+{"kind":"textbox","id":"sh/907uh43a","slide":7,"name":"text","text":"검사 알고리즘과\n신고 문구","textPreview":"검사 알고리즘과 | 신고 문구","textChars":14,"textLines":2,"bbox":[910,232,320,67]}
+{"kind":"shape","id":"sh/pwza5gvy","slide":7,"name":"cell-2-0","bbox":[42,307,180,83]}
+{"kind":"textbox","id":"sh/ovqtcbut","slide":7,"name":"text","text":"중증","textPreview":"중증","textChars":2,"textLines":1,"bbox":[52,315,160,67]}
+{"kind":"shape","id":"sh/3uhs3qd8","slide":7,"name":"cell-2-1","bbox":[222,307,338,83]}
+{"kind":"textbox","id":"sh/2t8balwn","slide":7,"name":"text","text":"임상·검사 기준 자동 판정\n전원·입원·IV artesunate","textPreview":"임상·검사 기준 자동 판정 | 전원·입원·IV artesunate","textChars":34,"textLines":2,"bbox":[232,315,318,67]}
+{"kind":"shape","id":"sh/1sza1gv2","slide":7,"name":"cell-2-2","bbox":[560,307,340,83]}
+{"kind":"textbox","id":"sh/grqt8beh","slide":7,"name":"text","text":"외래 경구 경로 중단","textPreview":"외래 경구 경로 중단","textChars":11,"textLines":1,"bbox":[570,315,320,67]}
+{"kind":"shape","id":"sh/fqhsz6dw","slide":7,"name":"cell-2-3","bbox":[900,307,340,83]}
+{"kind":"textbox","id":"sh/ep8r61wb","slide":7,"name":"text","text":"수치 기준·임신·\n원충종별 예외","textPreview":"수치 기준·임신· | 원충종별 예외","textChars":17,"textLines":2,"bbox":[910,315,320,67]}
+{"kind":"shape","id":"sh/lo3ad0v6","slide":7,"name":"cell-3-0","bbox":[42,390,180,83]}
+{"kind":"textbox","id":"sh/knatkvul","slide":7,"name":"text","text":"국내 삼일열","textPreview":"국내 삼일열","textChars":6,"textLines":1,"bbox":[52,398,160,67]}
+{"kind":"shape","id":"sh/ixkzid87","slide":7,"name":"cell-3-1","bbox":[222,390,338,83]}
+{"kind":"textbox","id":"sh/jitgripc","slide":7,"name":"text","text":"HCQ 41–100 kg 표\nPrimaquine + G6PD 분기","textPreview":"HCQ 41–100 kg 표 | Primaquine + G6PD 분기","textChars":36,"textLines":2,"bbox":[232,398,318,67]}
+{"kind":"shape","id":"sh/kj2hk36x","slide":7,"name":"cell-3-2","bbox":[560,390,340,83]}
+{"kind":"textbox","id":"sh/5kvyt87i","slide":7,"name":"text","text":"41 kg 미만·100 kg 초과\n제형 반올림 검토","textPreview":"41 kg 미만·100 kg 초과 | 제형 반올림 검토","textChars":28,"textLines":2,"bbox":[570,398,320,67]}
+{"kind":"shape","id":"sh/atkzet8v","slide":7,"name":"cell-3-3","bbox":[900,390,340,83]}
+{"kind":"textbox","id":"sh/vutgnypg","slide":7,"name":"text","text":"국내 유통 제형·\n약제부 검수","textPreview":"국내 유통 제형· | 약제부 검수","textChars":16,"textLines":2,"bbox":[910,398,320,67]}
+{"kind":"shape","id":"sh/wv2hg3q1","slide":7,"name":"cell-4-0","bbox":[42,473,180,83]}
+{"kind":"textbox","id":"sh/xwbyp87m","slide":7,"name":"text","text":"해외유입","textPreview":"해외유입","textChars":4,"textLines":1,"bbox":[52,481,160,67]}
+{"kind":"shape","id":"sh/up4zqxoz","slide":7,"name":"cell-4-1","bbox":[222,473,338,83]}
+{"kind":"textbox","id":"sh/fqd0z2pk","slide":7,"name":"text","text":"Pyramax·Malarone·Mefloquine\n예방약 중복 회피","textPreview":"Pyramax·Malarone·Mefloquine | 예방약 중복 회피","textChars":37,"textLines":2,"bbox":[232,481,318,67]}
+{"kind":"shape","id":"sh/zitcvut0","slide":7,"name":"cell-4-2","bbox":[560,473,340,83]}
+{"kind":"textbox","id":"sh/ehkvmpsf","slide":7,"name":"text","text":"원충종 미확인 시 열대열 간주\n간질환·임신 경고","textPreview":"원충종 미확인 시 열대열 간주 | 간질환·임신 경고","textChars":26,"textLines":2,"bbox":[570,481,320,67]}
+{"kind":"shape","id":"sh/1kbux4b6","slide":7,"name":"cell-4-3","bbox":[900,473,340,83]}
+{"kind":"textbox","id":"sh/0j2dozal","slide":7,"name":"text","text":"국가별 내성·재고·\n입원 원칙","textPreview":"국가별 내성·재고· | 입원 원칙","textChars":16,"textLines":2,"bbox":[910,481,320,67]}
+{"kind":"shape","id":"sh/retcrat4","slide":7,"name":"cell-5-0","bbox":[42,556,180,83]}
+{"kind":"textbox","id":"sh/qd0vipsj","slide":7,"name":"text","text":"특수집단","textPreview":"특수집단","textChars":4,"textLines":1,"bbox":[52,564,160,67]}
+{"kind":"shape","id":"sh/dgbutkbu","slide":7,"name":"cell-5-1","bbox":[222,556,338,83]}
+{"kind":"textbox","id":"sh/cf2dkfap","slide":7,"name":"text","text":"임신·수유·G6PD·소아\n기본 분기","textPreview":"임신·수유·G6PD·소아 | 기본 분기","textChars":19,"textLines":2,"bbox":[232,564,318,67]}
+{"kind":"shape","id":"sh/badw3et8","slide":7,"name":"cell-5-2","bbox":[560,556,340,83]}
+{"kind":"textbox","id":"sh/a94vu9sn","slide":7,"name":"text","text":"5 kg 미만·생후 3개월 미만\n전문 진료","textPreview":"5 kg 미만·생후 3개월 미만 | 전문 진료","textChars":23,"textLines":2,"bbox":[570,564,320,67]}
+{"kind":"shape","id":"sh/8vy9obq5","slide":7,"name":"cell-5-3","bbox":[900,556,340,83]}
+{"kind":"textbox","id":"sh/tg7axgrq","slide":7,"name":"text","text":"소아감염·산과·\n약물 안전성","textPreview":"소아감염·산과· | 약물 안전성","textChars":15,"textLines":2,"bbox":[910,564,320,67]}
+{"kind":"textbox","id":"sh/6twrm18z","slide":7,"name":"source","text":"Detailed scope: docs/clinical-rules.md · Current rule date: 2026.03.30","textPreview":"Detailed scope: docs/clinical-rules.md · Current rule date: 2026.03.30","textChars":70,"textLines":1,"bbox":[42,672,1010,22]}
+{"kind":"textbox","id":"sh/7u5sv69k","slide":7,"name":"footer","text":"검토용 · MalariaFrame  |  07","textPreview":"검토용 · MalariaFrame  |  07","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"notes","id":"nt/4anled","slide":7,"text":""}
+{"kind":"slide","id":"sl/j2iiqt","slide":8,"title":"환자 입력은 브라우저를 벗어나지 않는 정적 구조입니다","textShapes":17}
+{"kind":"textbox","id":"sh/zah8zmdc","slide":8,"name":"slide-title","text":"환자 입력은 브라우저를 벗어나지 않는 정적 구조입니다","textPreview":"환자 입력은 브라우저를 벗어나지 않는 정적 구조입니다","textChars":29,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/kbq9srux","slide":8,"name":"slide-subtitle","text":"서비스 계층은 화면 파일을 전달할 뿐이며, 임상값은 URL·API·데이터베이스로 전송하지 않습니다.","textPreview":"서비스 계층은 화면 파일을 전달할 뿐이며, 임상값은 URL·API·데이터베이스로 전송하지 않습니다.","textChars":55,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/lcza1wvi","slide":8,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"shape","id":"sh/mx8ru1c3","slide":8,"name":"github","bbox":[54,210,250,116]}
+{"kind":"shape","id":"sh/7yhs36do","slide":8,"name":"gcs","bbox":[374,210,250,116]}
+{"kind":"shape","id":"sh/8zq9wru9","slide":8,"name":"edge","bbox":[694,210,250,116]}
+{"kind":"shape","id":"sh/90za5wvu","slide":8,"name":"browser","bbox":[1014,188,212,160]}
+{"kind":"shape","id":"sh/214rixwz","slide":8,"name":"engine","bbox":[374,430,570,132]}
+{"kind":"shape","id":"sh/n2x8r2dk","slide":8,"bbox":[304,268,70,0]}
+{"kind":"shape","id":"sh/jatwbqd8","slide":8,"bbox":[624,268,70,0]}
+{"kind":"shape","id":"sh/i9kfilwn","slide":8,"bbox":[944,268,70,0]}
+{"kind":"shape","id":"sh/5cbed0vy","slide":8,"bbox":[944,348,176,148]}
+{"kind":"textbox","id":"sh/kb2xkvet","slide":8,"name":"text","text":"GitHub","textPreview":"GitHub","textChars":6,"textLines":1,"bbox":[74,230,210,28]}
+{"kind":"textbox","id":"sh/v69w7qdw","slide":8,"name":"text","text":"공개 소스·MIT\n변경 이력·리뷰","textPreview":"공개 소스·MIT | 변경 이력·리뷰","textChars":18,"textLines":2,"bbox":[74,267,210,44]}
+{"kind":"textbox","id":"sh/a50felwb","slide":8,"name":"text","text":"Google Cloud Storage","textPreview":"Google Cloud Storage","textChars":20,"textLines":1,"bbox":[394,230,210,28]}
+{"kind":"textbox","id":"sh/x8be9gv2","slide":8,"name":"text","text":"정적 파일 5개\nHTML · JS · CSS","textPreview":"정적 파일 5개 | HTML · JS · CSS","textChars":24,"textLines":2,"bbox":[394,267,210,44]}
+{"kind":"textbox","id":"sh/w72xgveh","slide":8,"name":"text","text":"Cloudflare Worker","textPreview":"Cloudflare Worker","textChars":17,"textLines":1,"bbox":[714,230,210,28]}
+{"kind":"textbox","id":"sh/n29w36d0","slide":8,"name":"text","text":"HTTPS · 캐시\n허용 경로·보안 헤더","textPreview":"HTTPS · 캐시 | 허용 경로·보안 헤더","textChars":22,"textLines":2,"bbox":[714,267,210,44]}
+{"kind":"textbox","id":"sh/m10fa1wf","slide":8,"name":"text","text":"의료진\n브라우저","textPreview":"의료진 | 브라우저","textChars":8,"textLines":2,"bbox":[1034,218,172,54]}
+{"kind":"textbox","id":"sh/qdgfm1g7","slide":8,"name":"text","text":"환자 입력","textPreview":"환자 입력","textChars":5,"textLines":1,"bbox":[1034,294,172,22]}
+{"kind":"textbox","id":"sh/bepgv6hs","slide":8,"name":"text","text":"브라우저 내부","textPreview":"브라우저 내부","textChars":7,"textLines":1,"bbox":[402,449,130,22]}
+{"kind":"textbox","id":"sh/cfyxobyd","slide":8,"name":"text","text":"Vanilla JavaScript 결정론적 규칙 엔진","textPreview":"Vanilla JavaScript 결정론적 규칙 엔진","textChars":29,"textLines":1,"bbox":[402,478,514,29]}
+{"kind":"textbox","id":"sh/d0ryxgzy","slide":8,"name":"text","text":"입력 수집 → 진단·중증·용량 계산 → DOM 결과 표시","textPreview":"입력 수집 → 진단·중증·용량 계산 → DOM 결과 표시","textChars":31,"textLines":1,"bbox":[402,520,514,24]}
+{"kind":"shape","id":"sh/y10fqlgj","slide":8,"name":"no-data","bbox":[54,430,250,132]}
+{"kind":"textbox","id":"sh/z29gzqho","slide":8,"name":"text","text":"의도적으로 없음","textPreview":"의도적으로 없음","textChars":8,"textLines":1,"bbox":[74,450,210,24]}
+{"kind":"textbox","id":"sh/03ixsby9","slide":8,"name":"text","text":"외부 임상 API\n환자 DB·로그 저장\nLLM·생성형 AI","textPreview":"외부 임상 API | 환자 DB·로그 저장 | LLM·생성형 AI","textChars":32,"textLines":3,"bbox":[74,486,210,58]}
+{"kind":"textbox","id":"sh/l4ry1gfu","slide":8,"name":"source","text":"Deployment config: GCS origin + Cloudflare Worker custom domain · Static runtime only","textPreview":"Deployment config: GCS origin + Cloudflare Worker custom domain · Static runtime only","textChars":85,"textLines":1,"bbox":[42,672,1010,22]}
+{"kind":"textbox","id":"sh/m50fulgf","slide":8,"name":"footer","text":"검토용 · MalariaFrame  |  08","textPreview":"검토용 · MalariaFrame  |  08","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"notes","id":"nt/j2iiqt","slide":8,"text":""}
+{"kind":"slide","id":"sl/ej09q9","slide":9,"title":"기술 스택은 작고, 공개적으로 검토 가능하며, 교체 비용이 낮습니다","textShapes":40}
+{"kind":"textbox","id":"sh/ov2lwvy5","slide":9,"name":"slide-title","text":"기술 스택은 작고, 공개적으로 검토 가능하며, 교체 비용이 낮습니다","textPreview":"기술 스택은 작고, 공개적으로 검토 가능하며, 교체 비용이 낮습니다","textChars":37,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/nut4nqxk","slide":9,"name":"slide-subtitle","text":"운영 런타임과 개발 도구를 구분해 장기 유지보수 부담을 줄였습니다.","textPreview":"운영 런타임과 개발 도구를 구분해 장기 유지보수 부담을 줄였습니다.","textChars":37,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/mtk3ulgf","slide":9,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"shape","id":"sh/1sbmlgfu","slide":9,"name":"cell-0-0","bbox":[42,176,160,40]}
+{"kind":"textbox","id":"sh/0r2lsby9","slide":9,"name":"text","text":"계층","textPreview":"계층","textChars":2,"textLines":1,"bbox":[52,184,140,24]}
+{"kind":"shape","id":"sh/z6t4j6xo","slide":9,"name":"cell-0-1","bbox":[202,176,290,40]}
+{"kind":"textbox","id":"sh/e503qlg3","slide":9,"name":"text","text":"기술","textPreview":"기술","textChars":2,"textLines":1,"bbox":[212,184,270,24]}
+{"kind":"shape","id":"sh/d4rmhgfi","slide":9,"name":"cell-0-2","bbox":[492,176,445,40]}
+{"kind":"textbox","id":"sh/c3ilobyx","slide":9,"name":"text","text":"역할","textPreview":"역할","textChars":2,"textLines":1,"bbox":[502,184,425,24]}
+{"kind":"shape","id":"sh/mlkv25kz","slide":9,"name":"cell-0-3","bbox":[937,176,303,40]}
+{"kind":"textbox","id":"sh/7mtwva1k","slide":9,"name":"text","text":"운영 여부","textPreview":"운영 여부","textChars":5,"textLines":1,"bbox":[947,184,283,24]}
+{"kind":"shape","id":"sh/8n2d4f25","slide":9,"name":"cell-1-0","bbox":[42,216,160,53]}
+{"kind":"textbox","id":"sh/9obex0ja","slide":9,"name":"text","text":"UI","textPreview":"UI","textChars":2,"textLines":1,"bbox":[52,224,140,37]}
+{"kind":"shape","id":"sh/yx0vylkn","slide":9,"name":"cell-1-1","bbox":[202,216,290,53]}
+{"kind":"textbox","id":"sh/zy9wrq18","slide":9,"name":"text","text":"HTML5 · CSS3 · Vanilla JS","textPreview":"HTML5 · CSS3 · Vanilla JS","textChars":25,"textLines":1,"bbox":[212,224,270,37]}
+{"kind":"shape","id":"sh/kzid0v2t","slide":9,"name":"cell-1-2","bbox":[492,216,445,53]}
+{"kind":"textbox","id":"sh/lkbet0je","slide":9,"name":"text","text":"의료진 입력·결과·반응형 화면","textPreview":"의료진 입력·결과·반응형 화면","textChars":16,"textLines":1,"bbox":[502,224,425,37]}
+{"kind":"shape","id":"sh/at0vulkr","slide":9,"name":"cell-1-3","bbox":[937,216,303,53]}
+{"kind":"textbox","id":"sh/bu9wnq1c","slide":9,"name":"text","text":"브라우저 런타임","textPreview":"브라우저 런타임","textChars":8,"textLines":1,"bbox":[947,224,283,37]}
+{"kind":"shape","id":"sh/fmlkfids","slide":9,"name":"cell-2-0","bbox":[42,269,160,53]}
+{"kind":"textbox","id":"sh/ulcj6dw7","slide":9,"name":"text","text":"임상 규칙","textPreview":"임상 규칙","textChars":5,"textLines":1,"bbox":[52,277,140,37]}
+{"kind":"shape","id":"sh/hon2hsvy","slide":9,"name":"cell-2-1","bbox":[202,269,290,53]}
+{"kind":"textbox","id":"sh/gnu18ned","slide":9,"name":"text","text":"JavaScript ES Modules","textPreview":"JavaScript ES Modules","textChars":21,"textLines":1,"bbox":[212,277,270,37]}
+{"kind":"shape","id":"sh/3q5kj2d4","slide":9,"name":"cell-2-2","bbox":[492,269,445,53]}
+{"kind":"textbox","id":"sh/2pwjaxwj","slide":9,"name":"text","text":"결정론적 진단·중증·용량 함수","textPreview":"결정론적 진단·중증·용량 함수","textChars":16,"textLines":1,"bbox":[502,277,425,37]}
+{"kind":"shape","id":"sh/psn2lcvu","slide":9,"name":"cell-2-3","bbox":[937,269,303,53]}
+{"kind":"textbox","id":"sh/ore1c7e9","slide":9,"name":"text","text":"브라우저 런타임","textPreview":"브라우저 런타임","textChars":8,"textLines":1,"bbox":[947,277,283,37]}
+{"kind":"shape","id":"sh/ju1k7ydk","slide":9,"name":"cell-3-0","bbox":[42,322,160,53]}
+{"kind":"textbox","id":"sh/itsjytwz","slide":9,"name":"text","text":"정적 원본","textPreview":"정적 원본","textChars":5,"textLines":1,"bbox":[52,330,140,37]}
+{"kind":"shape","id":"sh/8zqh8zux","slide":9,"name":"cell-3-1","bbox":[202,322,290,53]}
+{"kind":"textbox","id":"sh/90zyh4bi","slide":9,"name":"text","text":"Google Cloud Storage","textPreview":"Google Cloud Storage","textChars":20,"textLines":1,"bbox":[212,330,270,37]}
+{"kind":"shape","id":"sh/mx8z6pcr","slide":9,"name":"cell-3-2","bbox":[492,322,445,53]}
+{"kind":"textbox","id":"sh/nyhgfutc","slide":9,"name":"text","text":"허용된 5개 공개 파일 보관","textPreview":"허용된 5개 공개 파일 보관","textChars":15,"textLines":1,"bbox":[502,330,425,37]}
+{"kind":"shape","id":"sh/0v6h4zu1","slide":9,"name":"cell-3-3","bbox":[937,322,303,53]}
+{"kind":"textbox","id":"sh/lwfyd4b6","slide":9,"name":"text","text":"운영","textPreview":"운영","textChars":2,"textLines":1,"bbox":[947,330,283,37]}
+{"kind":"shape","id":"sh/y9oz2pcv","slide":9,"name":"cell-4-0","bbox":[42,375,160,53]}
+{"kind":"textbox","id":"sh/zuxgbutg","slide":9,"name":"text","text":"엣지","textPreview":"엣지","textChars":2,"textLines":1,"bbox":[52,383,140,37]}
+{"kind":"shape","id":"sh/krahgju5","slide":9,"name":"cell-4-1","bbox":[202,375,290,53]}
+{"kind":"textbox","id":"sh/5sjipobq","slide":9,"name":"text","text":"Cloudflare Worker","textPreview":"Cloudflare Worker","textChars":17,"textLines":1,"bbox":[212,383,270,37]}
+{"kind":"shape","id":"sh/1cbehgr2","slide":9,"name":"cell-4-2","bbox":[492,375,445,53]}
+{"kind":"textbox","id":"sh/gb2d8bah","slide":9,"name":"text","text":"Custom domain·HTTPS·CSP·캐시","textPreview":"Custom domain·HTTPS·CSP·캐시","textChars":26,"textLines":1,"bbox":[502,383,425,37]}
+{"kind":"shape","id":"sh/fatwf6tw","slide":9,"name":"cell-4-3","bbox":[937,375,303,53]}
+{"kind":"textbox","id":"sh/e9kv61sb","slide":9,"name":"text","text":"운영","textPreview":"운영","textChars":2,"textLines":1,"bbox":[947,383,283,37]}
+{"kind":"shape","id":"sh/p0vel0ry","slide":9,"name":"cell-5-0","bbox":[42,428,160,53]}
+{"kind":"textbox","id":"sh/ofmdcvat","slide":9,"name":"text","text":"검증","textPreview":"검증","textChars":2,"textLines":1,"bbox":[52,436,140,37]}
+{"kind":"shape","id":"sh/3edwjq98","slide":9,"name":"cell-5-1","bbox":[202,428,290,53]}
+{"kind":"textbox","id":"sh/2dkvalsn","slide":9,"name":"text","text":"Node.js 22 · assert","textPreview":"Node.js 22 · assert","textChars":19,"textLines":1,"bbox":[212,436,270,37]}
+{"kind":"shape","id":"sh/d4vep0ra","slide":9,"name":"cell-5-2","bbox":[492,428,445,53]}
+{"kind":"textbox","id":"sh/c3mxgvap","slide":9,"name":"text","text":"대표·경계·안전 분기 시나리오 테스트","textPreview":"대표·경계·안전 분기 시나리오 테스트","textChars":20,"textLines":1,"bbox":[502,436,425,37]}
+{"kind":"shape","id":"sh/apgbax87","slide":9,"name":"cell-5-3","bbox":[937,428,303,53]}
+{"kind":"textbox","id":"sh/vapsj29s","slide":9,"name":"text","text":"개발·CI","textPreview":"개발·CI","textChars":5,"textLines":1,"bbox":[947,436,283,37]}
+{"kind":"shape","id":"sh/wbytc7qd","slide":9,"name":"cell-6-0","bbox":[42,481,160,53]}
+{"kind":"textbox","id":"sh/xc7a5cry","slide":9,"name":"text","text":"빌드","textPreview":"빌드","textChars":2,"textLines":1,"bbox":[52,489,140,37]}
+{"kind":"shape","id":"sh/idgbeh83","slide":9,"name":"cell-6-1","bbox":[202,481,290,53]}
+{"kind":"textbox","id":"sh/jeps72po","slide":9,"name":"text","text":"Bash","textPreview":"Bash","textChars":4,"textLines":1,"bbox":[212,489,270,37]}
+{"kind":"shape","id":"sh/kfitg7q9","slide":9,"name":"cell-6-2","bbox":[492,481,445,53]}
+{"kind":"textbox","id":"sh/5gru9c7u","slide":9,"name":"text","text":"frontend → dist 정적 번들","textPreview":"frontend → dist 정적 번들","textChars":21,"textLines":1,"bbox":[502,489,425,37]}
+{"kind":"shape","id":"sh/6h0bih8f","slide":9,"name":"cell-6-3","bbox":[937,481,303,53]}
+{"kind":"textbox","id":"sh/7i9cbmp0","slide":9,"name":"text","text":"배포 시","textPreview":"배포 시","textChars":4,"textLines":1,"bbox":[947,489,283,37]}
+{"kind":"shape","id":"sh/3mtszm58","slide":9,"name":"cell-7-0","bbox":[42,534,160,53]}
+{"kind":"textbox","id":"sh/2l0r6hon","slide":9,"name":"text","text":"로컬 서버","textPreview":"로컬 서버","textChars":5,"textLines":1,"bbox":[52,542,140,37]}
+{"kind":"shape","id":"sh/p8ba1wny","slide":9,"name":"cell-7-1","bbox":[202,534,290,53]}
+{"kind":"textbox","id":"sh/on298r6d","slide":9,"name":"text","text":"FastAPI · Uvicorn","textPreview":"FastAPI · Uvicorn","textChars":17,"textLines":1,"bbox":[212,542,270,37]}
+{"kind":"shape","id":"sh/fi9svm5w","slide":9,"name":"cell-7-2","bbox":[492,534,445,53]}
+{"kind":"textbox","id":"sh/uh0r2hob","slide":9,"name":"text","text":"로컬 미리보기·health endpoint","textPreview":"로컬 미리보기·health endpoint","textChars":23,"textLines":1,"bbox":[502,542,425,37]}
+{"kind":"shape","id":"sh/1kraxcn2","slide":9,"name":"cell-7-3","bbox":[937,534,303,53]}
+{"kind":"textbox","id":"sh/gji94r6h","slide":9,"name":"text","text":"선택 사항","textPreview":"선택 사항","textChars":5,"textLines":1,"bbox":[947,542,283,37]}
+{"kind":"shape","id":"sh/7epsr250","slide":9,"name":"cell-8-0","bbox":[42,587,160,53]}
+{"kind":"textbox","id":"sh/6dgryxof","slide":9,"name":"text","text":"형상관리","textPreview":"형상관리","textChars":4,"textLines":1,"bbox":[52,595,140,37]}
+{"kind":"shape","id":"sh/w7uxcji1","slide":9,"name":"cell-8-1","bbox":[202,587,290,53]}
+{"kind":"textbox","id":"sh/x83yl4zm","slide":9,"name":"text","text":"GitHub · MIT License","textPreview":"GitHub · MIT License","textChars":20,"textLines":1,"bbox":[212,595,270,37]}
+{"kind":"shape","id":"sh/alcfa90v","slide":9,"name":"cell-8-2","bbox":[492,587,445,53]}
+{"kind":"textbox","id":"sh/bmlgjehg","slide":9,"name":"text","text":"공개 코드·이슈·변경 이력","textPreview":"공개 코드·이슈·변경 이력","textChars":14,"textLines":1,"bbox":[502,595,425,37]}
+{"kind":"shape","id":"sh/kbehgjix","slide":9,"name":"cell-8-3","bbox":[937,587,303,53]}
+{"kind":"textbox","id":"sh/lcnypozi","slide":9,"name":"text","text":"운영 거버넌스","textPreview":"운영 거버넌스","textChars":7,"textLines":1,"bbox":[947,595,283,37]}
+{"kind":"textbox","id":"sh/y9wze90r","slide":9,"name":"source","text":"Repository: github.com/jsbang01357/MalariaFrame · Runtime has no framework dependency and no external AI service.","textPreview":"Repository: github.com/jsbang01357/MalariaFrame · Runtime has no framework dependency and no external AI service.","textChars":113,"textLines":1,"bbox":[42,672,1010,22]}
+{"kind":"textbox","id":"sh/ja5gnehc","slide":9,"name":"footer","text":"검토용 · MalariaFrame  |  09","textPreview":"검토용 · MalariaFrame  |  09","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"notes","id":"nt/ej09q9","slide":9,"text":""}
+{"kind":"slide","id":"sl/kr5dhx","slide":10,"title":"개인정보를 모으지 않는 것이 가장 큰 보안 통제입니다","textShapes":22}
+{"kind":"textbox","id":"sh/2t0nmxgz","slide":10,"name":"slide-title","text":"개인정보를 모으지 않는 것이 가장 큰 보안 통제입니다","textPreview":"개인정보를 모으지 않는 것이 가장 큰 보안 통제입니다","textChars":29,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/pwr6hsfa","slide":10,"name":"slide-subtitle","text":"임상값이 서버로 이동하지 않도록 설계하고, 정적 자산 전달 경로도 최소 권한으로 제한했습니다.","textPreview":"임상값이 서버로 이동하지 않도록 설계하고, 정적 자산 전달 경로도 최소 권한으로 제한했습니다.","textChars":52,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/4vi5onyp","slide":10,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"shape","id":"sh/rytoj2xg","slide":10,"name":"metric-0","bbox":[42,205,366,250]}
+{"kind":"textbox","id":"sh/qxknqxgv","slide":10,"name":"text","text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[64,232,320,85]}
+{"kind":"textbox","id":"sh/d0b6lcfm","slide":10,"name":"text","text":"외부 임상 API","textPreview":"외부 임상 API","textChars":9,"textLines":1,"bbox":[64,329,320,28]}
+{"kind":"textbox","id":"sh/cz25s7y1","slide":10,"name":"text","text":"connect-src 'none'\n브라우저 밖 전송 차단","textPreview":"connect-src 'none' | 브라우저 밖 전송 차단","textChars":31,"textLines":2,"bbox":[64,376,320,58]}
+{"kind":"shape","id":"sh/72p47yxc","slide":10,"name":"metric-1","bbox":[446,205,366,250]}
+{"kind":"textbox","id":"sh/61gnedgr","slide":10,"name":"text","text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[468,232,320,85]}
+{"kind":"textbox","id":"sh/47ml8rqx","slide":10,"name":"text","text":"환자정보 저장","textPreview":"환자정보 저장","textChars":7,"textLines":1,"bbox":[468,329,320,28]}
+{"kind":"textbox","id":"sh/p8vm1w7i","slide":10,"name":"text","text":"이름·등록번호 미수집\nDB·브라우저 저장소 미사용","textPreview":"이름·등록번호 미수집 | DB·브라우저 저장소 미사용","textChars":27,"textLines":2,"bbox":[468,376,320,58]}
+{"kind":"shape","id":"sh/25k36h87","slide":10,"name":"metric-2","bbox":[850,205,366,250]}
+{"kind":"textbox","id":"sh/36t4zmps","slide":10,"name":"text","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[872,232,320,85]}
+{"kind":"textbox","id":"sh/cvmlcr69","slide":10,"name":"text","text":"배포 정적 파일","textPreview":"배포 정적 파일","textChars":8,"textLines":1,"bbox":[872,329,320,28]}
+{"kind":"textbox","id":"sh/dwvm5w7u","slide":10,"name":"text","text":"HTML 2 · JavaScript 2 · CSS 1\n경로 allowlist","textPreview":"HTML 2 · JavaScript 2 · CSS 1 | 경로 allowlist","textChars":42,"textLines":2,"bbox":[872,376,320,58]}
+{"kind":"shape","id":"sh/q943aho3","slide":10,"name":"security-controls","bbox":[42,493,1178,116]}
+{"kind":"textbox","id":"sh/rad43mpo","slide":10,"name":"text","text":"전달 계층 통제","textPreview":"전달 계층 통제","textChars":8,"textLines":1,"bbox":[62,512,156,24]}
+{"kind":"textbox","id":"sh/sfil07q5","slide":10,"name":"text","text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[232,511,24,24]}
+{"kind":"textbox","id":"sh/t0bmtc7a","slide":10,"name":"text","text":"GET·HEAD만 허용","textPreview":"GET·HEAD만 허용","textChars":12,"textLines":1,"bbox":[260,509,210,44]}
+{"kind":"textbox","id":"sh/9w32xoze","slide":10,"name":"text","text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[477,511,24,24]}
+{"kind":"textbox","id":"sh/8va14jit","slide":10,"name":"text","text":"CSP·frame-ancestors 'none'","textPreview":"CSP·frame-ancestors 'none'","textChars":26,"textLines":1,"bbox":[505,509,210,44]}
+{"kind":"textbox","id":"sh/7u1kvyh8","slide":10,"name":"text","text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[722,511,24,24]}
+{"kind":"textbox","id":"sh/mtsj2t0n","slide":10,"name":"text","text":"카메라·위치·마이크 권한 비활성","textPreview":"카메라·위치·마이크 권한 비활성","textChars":17,"textLines":1,"bbox":[750,509,210,44]}
+{"kind":"textbox","id":"sh/h03218za","slide":10,"name":"text","text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[967,511,24,24]}
+{"kind":"textbox","id":"sh/wzu183ip","slide":10,"name":"text","text":"No-referrer·nosniff·DENY frame","textPreview":"No-referrer·nosniff·DENY frame","textChars":30,"textLines":1,"bbox":[995,509,210,44]}
+{"kind":"textbox","id":"sh/vylkzyhk","slide":10,"name":"source","text":"Verified from Worker source and current 5-file static build on 2026.07.11","textPreview":"Verified from Worker source and current 5-file static build on 2026.07.11","textChars":73,"textLines":1,"bbox":[42,672,1010,22]}
+{"kind":"textbox","id":"sh/uxcj6t0z","slide":10,"name":"footer","text":"검토용 · MalariaFrame  |  10","textPreview":"검토용 · MalariaFrame  |  10","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"notes","id":"nt/kr5dhx","slide":10,"text":""}
+{"kind":"slide","id":"sl/9ncij5","slide":11,"title":"현재 확인된 것은 ‘기술 동작’; 아직 필요한 것은 ‘임상·제도 검증’입니다","textShapes":26}
+{"kind":"textbox","id":"sh/07q14ze1","slide":11,"name":"slide-title","text":"현재 확인된 것은 ‘기술 동작’; 아직 필요한 것은 ‘임상·제도 검증’입니다","textPreview":"현재 확인된 것은 ‘기술 동작’; 아직 필요한 것은 ‘임상·제도 검증’입니다","textChars":42,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/z6h0vudg","slide":11,"name":"slide-subtitle","text":"검증 완료 범위를 좁고 명확하게 표시해야 공식 서비스로 오인되는 위험을 줄일 수 있습니다.","textPreview":"검증 완료 범위를 좁고 명확하게 표시해야 공식 서비스로 오인되는 위험을 줄일 수 있습니다.","textChars":50,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/y58j29wb","slide":11,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"shape","id":"sh/9wj21ovy","slide":11,"name":"verified","bbox":[42,184,565,420]}
+{"kind":"shape","id":"sh/8va18jed","slide":11,"name":"pending","bbox":[673,184,565,420]}
+{"kind":"textbox","id":"sh/na1kzeds","slide":11,"name":"text","text":"현재 확인됨","textPreview":"현재 확인됨","textChars":6,"textLines":1,"bbox":[68,210,500,34]}
+{"kind":"textbox","id":"sh/m9sj69w7","slide":11,"name":"text","text":"임상 사용 전 필요","textPreview":"임상 사용 전 필요","textChars":10,"textLines":1,"bbox":[699,210,500,34]}
+{"kind":"textbox","id":"sh/p0fipkfe","slide":11,"name":"text","text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[72,270,22,26]}
+{"kind":"textbox","id":"sh/oz61wfet","slide":11,"name":"text","text":"대표·경계·안전 분기의 규칙 엔진 테스트 통과","textPreview":"대표·경계·안전 분기의 규칙 엔진 테스트 통과","textChars":25,"textLines":1,"bbox":[100,270,462,53]}
+{"kind":"textbox","id":"sh/u9sfit03","slide":11,"name":"text","text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[72,326,22,26]}
+{"kind":"textbox","id":"sh/fa1wryh8","slide":11,"name":"text","text":"Cloudflare Worker proxy·허용 경로 테스트 통과","textPreview":"Cloudflare Worker proxy·허용 경로 테스트 통과","textChars":36,"textLines":1,"bbox":[100,326,462,53]}
+{"kind":"textbox","id":"sh/gbaxk3it","slide":11,"name":"text","text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[72,382,22,26]}
+{"kind":"textbox","id":"sh/hcjet8ze","slide":11,"name":"text","text":"정적 5파일 빌드 및 공개 HTTPS 화면 동작","textPreview":"정적 5파일 빌드 및 공개 HTTPS 화면 동작","textChars":26,"textLines":1,"bbox":[100,382,462,53]}
+{"kind":"textbox","id":"sh/2dcfmd0z","slide":11,"name":"text","text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[72,438,22,26]}
+{"kind":"textbox","id":"sh/3elwvihk","slide":11,"name":"text","text":"환자 식별정보 미수집·브라우저 내 계산 구조","textPreview":"환자 식별정보 미수집·브라우저 내 계산 구조","textChars":24,"textLines":1,"bbox":[100,438,462,53]}
+{"kind":"textbox","id":"sh/4zuxo3i5","slide":11,"name":"text","text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[72,494,22,26]}
+{"kind":"textbox","id":"sh/p03ex8zq","slide":11,"name":"text","text":"오픈소스 코드·근거·검토 필요 항목 공개","textPreview":"오픈소스 코드·근거·검토 필요 항목 공개","textChars":22,"textLines":1,"bbox":[100,494,462,53]}
+{"kind":"textbox","id":"sh/q1cfqd0v","slide":11,"name":"text","text":"○","textPreview":"○","textChars":1,"textLines":1,"bbox":[703,270,22,26]}
+{"kind":"textbox","id":"sh/r2lwzihg","slide":11,"name":"text","text":"지침 해석 및 전체 분기의 다학제 임상 검수","textPreview":"지침 해석 및 전체 분기의 다학제 임상 검수","textChars":24,"textLines":1,"bbox":[731,270,462,53]}
+{"kind":"textbox","id":"sh/n65wnixo","slide":11,"name":"text","text":"○","textPreview":"○","textChars":1,"textLines":1,"bbox":[703,326,22,26]}
+{"kind":"textbox","id":"sh/m5wvedw3","slide":11,"name":"text","text":"국내 제형·반올림·상호작용의 약제부 검증","textPreview":"국내 제형·반올림·상호작용의 약제부 검증","textChars":22,"textLines":1,"bbox":[731,326,462,53]}
+{"kind":"textbox","id":"sh/98nepsfu","slide":11,"name":"text","text":"○","textPreview":"○","textChars":1,"textLines":1,"bbox":[703,382,22,26]}
+{"kind":"textbox","id":"sh/o7edgne9","slide":11,"name":"text","text":"소아·임신·신간기능·고체중 경계 사례 검증","textPreview":"소아·임신·신간기능·고체중 경계 사례 검증","textChars":23,"textLines":1,"bbox":[731,382,462,53]}
+{"kind":"textbox","id":"sh/z2lwjixs","slide":11,"name":"text","text":"○","textPreview":"○","textChars":1,"textLines":1,"bbox":[703,438,22,26]}
+{"kind":"textbox","id":"sh/e1cvadw7","slide":11,"name":"text","text":"1차 의료기관 사용자 평가와 오류 유형 분석","textPreview":"1차 의료기관 사용자 평가와 오류 유형 분석","textChars":24,"textLines":1,"bbox":[731,438,462,53]}
+{"kind":"textbox","id":"sh/14nel8fi","slide":11,"name":"text","text":"○","textPreview":"○","textChars":1,"textLines":1,"bbox":[703,494,22,26]}
+{"kind":"textbox","id":"sh/03udcnex","slide":11,"name":"text","text":"의료기기 소프트웨어 해당성·책임·운영 주체 검토","textPreview":"의료기기 소프트웨어 해당성·책임·운영 주체 검토","textChars":26,"textLines":1,"bbox":[731,494,462,53]}
+{"kind":"shape","id":"sh/relwfyxg","slide":11,"name":"prototype-badge-bg","bbox":[897,620,298,30]}
+{"kind":"textbox","id":"sh/qdcv6twv","slide":11,"name":"prototype-badge","text":"임상·규제 검증 전 프로토타입","textPreview":"임상·규제 검증 전 프로토타입","textChars":16,"textLines":1,"bbox":[907,626,278,18]}
+{"kind":"textbox","id":"sh/g7610fqh","slide":11,"name":"footer","text":"검토용 · MalariaFrame  |  11","textPreview":"검토용 · MalariaFrame  |  11","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"notes","id":"nt/9ncij5","slide":11,"text":""}
+{"kind":"slide","id":"sl/5za2rh","slide":12,"title":"공동 고도화는 세 단계 검증으로 시작할 수 있습니다","textShapes":17}
+{"kind":"textbox","id":"sh/8vi9cvix","slide":12,"name":"slide-title","text":"공동 고도화는 세 단계 검증으로 시작할 수 있습니다","textPreview":"공동 고도화는 세 단계 검증으로 시작할 수 있습니다","textChars":28,"textLines":1,"bbox":[42,34,1110,72]}
+{"kind":"textbox","id":"sh/7u98jqhc","slide":12,"name":"slide-subtitle","text":"기간보다 합의된 산출물과 중단 기준을 우선하는 연구·운영 검증 흐름입니다.","textPreview":"기간보다 합의된 산출물과 중단 기준을 우선하는 연구·운영 검증 흐름입니다.","textChars":41,"textLines":1,"bbox":[42,108,1080,35]}
+{"kind":"shape","id":"sh/mt0ra507","slide":12,"name":"title-rule","bbox":[42,146,1196,0]}
+{"kind":"shape","id":"sh/lsrqh0zm","slide":12,"name":"phase-0","bbox":[74,268,330,258]}
+{"kind":"shape","id":"sh/kri98vi1","slide":12,"name":"phase-1","bbox":[476,268,330,258]}
+{"kind":"shape","id":"sh/z698fqhg","slide":12,"name":"phase-2","bbox":[878,268,330,258]}
+{"kind":"shape","id":"sh/y50r6l0v","slide":12,"bbox":[404,397,72,0]}
+{"kind":"shape","id":"sh/5ovatkzq","slide":12,"bbox":[806,397,72,0]}
+{"kind":"shape","id":"sh/4nm9kfi5","slide":12,"name":"phase-badge-0-bg","bbox":[96,292,78,30]}
+{"kind":"textbox","id":"sh/2xc3alcb","slide":12,"name":"phase-badge-0","text":"1단계","textPreview":"1단계","textChars":3,"textLines":1,"bbox":[106,298,58,18]}
+{"kind":"textbox","id":"sh/3y5kjqdw","slide":12,"name":"text","text":"규칙 검토","textPreview":"규칙 검토","textChars":5,"textLines":1,"bbox":[96,342,286,34]}
+{"kind":"textbox","id":"sh/ozelcbuh","slide":12,"name":"text","text":"지침–코드 매핑\n용량표·예외 분기\n용어·표현 합의","textPreview":"지침–코드 매핑 | 용량표·예외 분기 | 용어·표현 합의","textChars":27,"textLines":3,"bbox":[96,392,286,76]}
+{"kind":"shape","id":"sh/p0n2lgvm","slide":12,"name":"rule","bbox":[96,480,286,0]}
+{"kind":"textbox","id":"sh/etcj61cz","slide":12,"name":"text","text":"산출물  규칙 기준표","textPreview":"산출물  규칙 기준표","textChars":11,"textLines":1,"bbox":[96,495,286,22]}
+{"kind":"shape","id":"sh/fulkf6dk","slide":12,"name":"phase-badge-1-bg","bbox":[498,292,78,30]}
+{"kind":"textbox","id":"sh/gvul8bu5","slide":12,"name":"phase-badge-1","text":"2단계","textPreview":"2단계","textChars":3,"textLines":1,"bbox":[508,298,58,18]}
+{"kind":"textbox","id":"sh/1w32hgvq","slide":12,"name":"text","text":"사용성·경계 사례","textPreview":"사용성·경계 사례","textChars":9,"textLines":1,"bbox":[498,342,286,34]}
+{"kind":"textbox","id":"sh/ypw3i5cj","slide":12,"name":"text","text":"보건소·1차 의료기관\n대표 시나리오·오류 분석\n3분 내 입력 가능성","textPreview":"보건소·1차 의료기관 | 대표 시나리오·오류 분석 | 3분 내 입력 가능성","textChars":37,"textLines":3,"bbox":[498,392,286,76]}
+{"kind":"shape","id":"sh/zqpkrad4","slide":12,"name":"rule","bbox":[498,480,286,0]}
+{"kind":"textbox","id":"sh/vah0j2tg","slide":12,"name":"text","text":"산출물  검증 리포트","textPreview":"산출물  검증 리포트","textChars":11,"textLines":1,"bbox":[498,495,286,22]}
+{"kind":"shape","id":"sh/a98zaxsv","slide":12,"name":"phase-badge-2-bg","bbox":[900,292,78,30]}
+{"kind":"textbox","id":"sh/xwzilsbm","slide":12,"name":"phase-badge-2","text":"3단계","textPreview":"3단계","textChars":3,"textLines":1,"bbox":[910,298,58,18]}
+{"kind":"textbox","id":"sh/wbqhc7a1","slide":12,"name":"text","text":"Silent pilot","textPreview":"Silent pilot","textChars":12,"textLines":1,"bbox":[900,342,286,34]}
+{"kind":"textbox","id":"sh/jyh0n2tc","slide":12,"name":"text","text":"실제 진료와 병행하되\n처방에는 자동 반영하지 않음\n불일치·누락률 평가","textPreview":"실제 진료와 병행하되 | 처방에는 자동 반영하지 않음 | 불일치·누락률 평가","textChars":38,"textLines":3,"bbox":[900,392,286,76]}
+{"kind":"shape","id":"sh/ix8zexsr","slide":12,"name":"rule","bbox":[900,480,286,0]}
+{"kind":"textbox","id":"sh/50jipcbi","slide":12,"name":"text","text":"산출물  도입 판단","textPreview":"산출물  도입 판단","textChars":10,"textLines":1,"bbox":[900,495,286,22]}
+{"kind":"shape","id":"sh/kzahg7ax","slide":12,"name":"pilot-note","bbox":[74,565,1134,57]}
+{"kind":"textbox","id":"sh/r210rmto","slide":12,"name":"text","text":"원칙","textPreview":"원칙","textChars":2,"textLines":1,"bbox":[94,583,56,20]}
+{"kind":"textbox","id":"sh/61szihs3","slide":12,"name":"text","text":"검증 전에는 처방 자동 확정·EMR 자동 반영·공식 질병관리청 서비스 표기를 하지 않습니다.","textPreview":"검증 전에는 처방 자동 확정·EMR 자동 반영·공식 질병관리청 서비스 표기를 하지 않습니다.","textChars":51,"textLines":1,"bbox":[160,579,1018,28]}
+{"kind":"textbox","id":"sh/o7uh8rq1","slide":12,"name":"footer","text":"검토용 · MalariaFrame  |  12","textPreview":"검토용 · MalariaFrame  |  12","textChars":25,"textLines":1,"bbox":[1040,672,198,22]}
+{"kind":"notes","id":"nt/5za2rh","slide":12,"text":""}
+{"kind":"slide","id":"sl/f4f47j","slide":13,"title":"검토 제안","textShapes":14}
+{"kind":"shape","id":"sh/x4ra5k7m","slide":13,"name":"badge-bg","bbox":[42,38,112,30]}
+{"kind":"textbox","id":"sh/ahgrap8v","slide":13,"name":"badge","text":"검토 제안","textPreview":"검토 제안","textChars":5,"textLines":1,"bbox":[52,44,92,18]}
+{"kind":"textbox","id":"sh/bi9s3upg","slide":13,"name":"close-title","text":"협업 검토에서\n세 가지 합의가 필요합니다","textPreview":"협업 검토에서 | 세 가지 합의가 필요합니다","textChars":22,"textLines":2,"bbox":[42,154,780,150]}
+{"kind":"shape","id":"sh/k7i9gzqd","slide":13,"name":"rule","bbox":[42,364,348,0]}
+{"kind":"textbox","id":"sh/l8ra947i","slide":13,"name":"text","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[42,387,44,24]}
+{"kind":"textbox","id":"sh/y50rep87","slide":13,"name":"text","text":"근거 거버넌스","textPreview":"근거 거버넌스","textChars":7,"textLines":1,"bbox":[42,425,348,32]}
+{"kind":"textbox","id":"sh/j69s7ups","slide":13,"name":"text","text":"공식 기준 문서·개정 주기·규칙 승인 책임","textPreview":"공식 기준 문서·개정 주기·규칙 승인 책임","textChars":23,"textLines":1,"bbox":[42,468,348,55]}
+{"kind":"shape","id":"sh/0by94fqt","slide":13,"name":"rule","bbox":[440,364,348,0]}
+{"kind":"textbox","id":"sh/1c7qx07e","slide":13,"name":"text","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[440,387,44,24]}
+{"kind":"textbox","id":"sh/l0vu1ozu","slide":13,"name":"text","text":"임상 검증","textPreview":"임상 검증","textChars":5,"textLines":1,"bbox":[440,425,348,32]}
+{"kind":"textbox","id":"sh/kfmdsji9","slide":13,"name":"text","text":"분과별 검수자·대표/경계 사례·중단 기준","textPreview":"분과별 검수자·대표/경계 사례·중단 기준","textChars":22,"textLines":1,"bbox":[440,468,348,55]}
+{"kind":"shape","id":"sh/jedczeho","slide":13,"name":"rule","bbox":[838,364,348,0]}
+{"kind":"textbox","id":"sh/yd4vqt03","slide":13,"name":"text","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[838,387,44,24]}
+{"kind":"textbox","id":"sh/t4ve58zq","slide":13,"name":"text","text":"현장 평가","textPreview":"현장 평가","textChars":5,"textLines":1,"bbox":[838,425,348,32]}
+{"kind":"textbox","id":"sh/83mdw3i5","slide":13,"name":"text","text":"대상 기관·silent pilot·오류·불일치 지표","textPreview":"대상 기관·silent pilot·오류·불일치 지표","textChars":28,"textLines":1,"bbox":[838,468,348,55]}
+{"kind":"shape","id":"sh/72dc3yhk","slide":13,"name":"close-statement","bbox":[42,558,1196,74]}
+{"kind":"textbox","id":"sh/614vut0z","slide":13,"name":"text","text":"공개 규칙 · 검증 로그 · 버전 관리 체계를 전제로, 공식 서비스로 오인되지 않는 범위에서 공동 고도화를 제안합니다.","textPreview":"공개 규칙 · 검증 로그 · 버전 관리 체계를 전제로, 공식 서비스로 오인되지 않는 범위에서 공동 고도화를 제안합니다.","textChars":66,"textLines":1,"bbox":[64,578,1152,34]}
+{"kind":"textbox","id":"sh/h8fe98zm","slide":13,"name":"text","text":"malaria.jisong.dev  ·  github.com/jsbang01357/MalariaFrame  ·  MIT License","textPreview":"malaria.jisong.dev  ·  github.com/jsbang01357/MalariaFrame  ·  MIT License","textChars":74,"textLines":1,"bbox":[42,655,900,22]}
+{"kind":"textbox","id":"sh/g76d03ih","slide":13,"name":"text","text":"제안·개발  jsbang01357","textPreview":"제안·개발  jsbang01357","textChars":18,"textLines":1,"bbox":[1000,655,238,22]}
+{"kind":"notes","id":"nt/f4f47j","slide":13,"text":""}
